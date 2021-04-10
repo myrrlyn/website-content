@@ -1,7 +1,6 @@
 ---
 title: ~/text.css
-summary: |
-  A quick palette of how text is rendered here.
+summary: A quick palette of how text is rendered here.
 ---
 
 This page contains sample text of various styled elements that appear on the
@@ -9,7 +8,7 @@ site, in order to provide quick visual testing of the overall theme.
 
 # Title
 
-## Chapter
+## Subtitle
 
 ### Section
 
@@ -27,35 +26,27 @@ site, in order to provide quick visual testing of the overall theme.
 
 > This is a danger blockquote.
 >
-> > This is a nested blockquote that has a level indicator as well as an image.
-> {:.bq-harm .iso7010 .p015}
+> It requires two paragraphs in order for the image marker to not look terrible.
 {:.bq-harm .iso7010 .p010}
 
 <!-- -->
 
-> This is a warning blockquote.
->
-> > This is a nested blockquote with an image, but it does not have a level
-> > indicator.
-> {:.iso7010 .p025}
+> This is a warning blockquote, warning of big stamps on short messages.
 {:.bq-warn .iso7010 .w027}
 
 <!-- -->
 
 > This is a safety blockquote.
 >
-> > Nesting blockquotes with *different* level indicators is rough.
-> {:.bq-info .iso7010 .e011}
+> It will contain reassuring or helpful information, in theory.
 {:.bq-safe .iso7010 .e003}
 
 <!-- -->
 
 > This is an informational blockquote.
 >
-> > Second level, no level marker.
-> > > third level, heterogenous level marker.
-> > {:.bq-safe .iso7010 .m005}
-> {:.iso7010 .m001}
+> It contains text that may be a fun parenthetical but does not otherwise carry
+> meaning.
 {:.bq-info .iso7010 .m002}
 
 This is **bold**, *italic*, and `inline code` text.

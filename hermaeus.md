@@ -4,8 +4,6 @@ date: 2016-10-12T10:55:07-0400
 summary: An explanation of my Hermaeus project.
 ---
 
-# `Hermaeus`
-
 [![Gem Version](https://badge.fury.io/rb/hermaeus.svg){:.unset}](https://badge.fury.io/rb/hermaeus)
 
 - [Source Code][gh]

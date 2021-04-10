@@ -1,13 +1,12 @@
 ---
 title: My Workbench
-summary: |
-  A tour of what tools I use, inspired by <uses.tech>.
+summary:  A tour of what tools I use, inspired by <uses.tech>.
 ---
 
-I think the <uses.tech> concept of sharing what tools and processes we use in
+I think the [`uses.tech`] concept of sharing what tools and processes we use in
 ordinary life is cool, so here’s mine.
 
-# Password Manager
+## Password Manager
 
 I’m going to lead with what I believe is the most important one. If you’re
 reading this, you’re online, and if you’re online, you need a good, trustworthy,
@@ -25,13 +24,14 @@ explicit and sole control of your password archive files. Services like LastPass
 that store your passwords on their servers get breached and cause *more* harm
 than not having used one in the first place.
 
-## Features
+### Features
 
 I use Enpass on my laptop (macOS), my desktop (Windows), my server (Linux), and
 my phone (now iPhone, previously Android and Windows Phone). Enpass is the only
 product I’ve seen that has a native application for *all of them*.
 
 > 2021: 1Password now has a Linux desktop application in beta.
+{:.bq-info}
 
 Both Enpass and 1Password provide the following features that make them worth
 using:
@@ -80,7 +80,7 @@ you.
 
 On to the rest of the page.
 
-# Computers
+## Computers
 
 My longest surviving computer is a 2014 MacBook Pro (13”). My mom got it for me
 when I switched majors and it’s been with me ever since. I mostly use it as a
@@ -90,7 +90,7 @@ web browser and a thin terminal connected to a more capable Linux server.
 > mainboard that can survive accidentally connecting 24 volts DC to the USB
 > socket and short-circuiting it and only destroying that USB port, not the rest
 > of the computer.
-{.bq-harm .iso7010 .w012}
+{:.bq-harm .iso7010 .w012}
 
 I built my first PC in 2013 (deceased 2017) and my second in 2015 (deceased
 2021). I intend to rebuild both of them once I have the spare time and money,
@@ -106,7 +106,7 @@ failures. I enjoyed it a lot.
 My primary work environment is now an AWS rented machine which, at about $20/mo,
 will remain cheaper than repairing the deceased desktops for several years.
 
-# Phones
+## Phones
 
 I started on a Nokia Lumia 920, then 1020. I maintain that those phones, and the
 Windows Phone platform, are the pinnacle of human achivement in mobile computing
@@ -127,12 +127,12 @@ the fact that, observably, Apple hardware is just better able to survive
 existing with me than anyone else, I don’t anticipate migrating back without a
 significant cause.
 
-# Keyboard
+## Keyboard
 
 I use [WASD] mechanical keyboards printed in the [Dvorak] layout. Now I’m
 insufferable in two dimensions.
 
-# Software
+## Software
 
 I use [Mozilla Firefox] as my browser, [Microsoft Office] for what you’d expect,
 and [Visual Studio Code] as my general editor.
@@ -144,18 +144,18 @@ primary reason I don’t feel an urgent need to repair my desktop, since while m
 laptop is still seven years old and not in shape to be doing thermally intensive
 work, it is perfectly able to be a thin client to a rented machine elsewhere.
 
-## Fonts
+### Fonts
 
 I am a huge fan of the [Cascadia Code] and [Roboto] fonts. I also use [Iosevka]
 as my primary monospace font.
 
-## Programming Languages
+### Programming Languages
 
 I am most fluent in Rust, and use it in both my personal and professional life.
 I’ve been actively writing in it since 2016. I also am capable in Ruby, Python,
 C, C++, and JavaScript, though I generally don’t use them unless required.
 
-## Web Presence
+### Web Presence
 
 I currently use [DNSimple] for my domain names, [DigitalOcean] for my web-facing
 servers, and [AWS] for my personal machines. AWS employees don’t get pain in
@@ -175,3 +175,4 @@ store credit and DO is cheaper for continuous uptime.
 [Roboto]: https://fonts.google.com/specimen/Roboto
 [Visual Studio Code]: https://code.visualstudio.com/
 [WASD]: https://www.wasdkeyboards.com/
+[`uses.tech`]: https://uses.tech/

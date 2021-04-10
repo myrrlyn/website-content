@@ -1,6 +1,7 @@
 ---
 title: "~myrrlyn/"
 summary: My homepage.
+toc: false
 ---
 
 # Alexander Payne
@@ -37,6 +38,7 @@ idea but an irritating practice.
 - [Snapchat][snap]
 - [LinkedIn][linkedin] (I almost never maintain this)
 - [Keybase][kb]
+
 <!-- - [Public Key][pubkey] -->
 
 ## Social Policy

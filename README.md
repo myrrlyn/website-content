@@ -12,27 +12,38 @@ LaTeX. While my site servers may apply additional transforms to the Markdown
 text based on the YAML contents or my own goals, the source documents will
 always be *reasonably* presentable when given to a GFM-capable engine.
 
+Some document classes may prefer not to include explicit title `h1` elements,
+and will instead rely on the template to render the `title` and `subtitle`
+metadata in the article.
+
+The HTML5 specification for headings indicates that only one `h1` should be
+present in any given `<article>`. My oeuvre uses headings for formatting
+elements, per the original reddit limitations. Those documents are exempt from
+this rule until I have time to mark them properly for font size changes.
+
+## YAML Frontmatter
+
 The YAML schema is as follows:
 
 ```yaml
 title: String, required. Used for `<title>` and `<h1 id="title">`.
 subtitle: String, optional.
-summary: String, required. Used for `<meta name="description">`
+summary: String, required. Used for `<meta name="description">`. Plaintext.
 date: RFC3339 date-only or date-time-zone fragment, optional.
 tags: optional
   - zero
   - or more
   - Strings
 toc: bool, optional, default true. Controls Table of Contents generation.
-meta: optional, defines other `<meta>` elements
-  - name: String, required
-    content: String, required
+meta: optional, defines other `<meta>` elements. List of k/v pairs
+  - name: content
 ```
 
 Oeuvre posts may additionally use this schema:
 
 ```yaml
-about: String, optional. Context for the reader. Not used in `<meta>`.
+about: String, optional. Context for the reader. Not used in `<meta>`. Markdown.
+banner: String, optional.
 intro-music: Generates an `<audio>` at the start of a post.
   src: String, required. URL to a music file
   title: String, required. Name of the file, if the client cannot play it

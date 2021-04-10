@@ -3,8 +3,6 @@ title: Résumé – Alexander Payne
 summary: My résumé
 ---
 
-# My Résumé
-
 I am a software engineer with experience in low-level firmware and application
 development. I am trained in technical writing and system design, with
 emphasises on user comprehension and fault tolerance.

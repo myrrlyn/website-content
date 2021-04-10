@@ -4,10 +4,11 @@ toc: false
 summary: My open-sourced Rust projects.
 ---
 
+# My Crates
 
 This is a summary of Rust projects I have written.
 
-# `bitvec`
+## `bitvec`
 
 [More details](./crates/bitvec)
 
@@ -28,7 +29,7 @@ that demand *references* to a memory region, rather than *handles* to it. This
 functionality allows `bitvec` to be drop-in compatible with existing code, with
 only one exception.
 
-## `radium`
+### `radium`
 
 [More details](./crates/radium)
 
@@ -37,7 +38,7 @@ be generic over thread-safety. It enables graceful degredation of portable code
 across processors with varying levels of atomic support, or compile-time
 switches of single- vs multi- threaded shared mutation capability.
 
-# `tap`
+## `tap`
 
 [More details](./crates/tap)
 
@@ -54,7 +55,7 @@ language features elsewhere:
 - `Conv` allows you to replace `.into()`, which cannot specify the destination
   type, with `.conv::<T>()`, which can.
 
-# `calm_io`
+## `calm_io`
 
 [More details](./crates/calm_io)
 
@@ -73,7 +74,7 @@ unwrapping them, and decorator macros for `main` that detect
 `io::ErrorKind::BrokenPipe` and translate it into a graceful shutdown instead of
 a crash.
 
-# `wyz`
+## `wyz`
 
 [More details](./crates/wyz)
 
@@ -81,7 +82,7 @@ This is my general-purpose utility library. It contains little snippets of code
 I think are worth reüsing, but are not yet worth publishing as standalone
 crates.
 
-# `lilliput`
+## `lilliput`
 
 [More details](./crates/lilliput)
 

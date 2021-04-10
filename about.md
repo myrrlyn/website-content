@@ -1,6 +1,7 @@
 ---
-title: Alexander Payne
+title: About Alexander Payne
 summary: A long-form profile of me.
+toc: false
 ---
 
 # About Me

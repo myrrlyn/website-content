@@ -4,8 +4,6 @@ summary: |
   A list of various public works I’ve done since 2013.
 ---
 
-# My Portfolio
-
 Here are some faded aspects of my hobby. Other than my F/LOSS work, these
 largely have not been touched since 2016.
 
