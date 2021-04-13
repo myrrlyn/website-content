@@ -3,11 +3,11 @@ title: WebRing
 summary: Here are some of my friends.
 ---
 
-YOU: please show me the blogs in the order that they were made
+Back when the internet was ~~good~~ <ins>younger</ins>, people with similar
+sites [clustered together][wiki]. Between search engines and social media, this
+practice is pretty much obsolete.
 
-WEBSITE: thats too hard. heres some friends i think are good. Do you like this
-
-[Text reference][joke]{:.small}
+Anyway, here are some friends I think are good.
 
 ----
 
@@ -16,9 +16,10 @@ WEBSITE: thats too hard. heres some friends i think are good. Do you like this
 - [David Barsky](//davidbarsky.com)
 - [Eliza Weisman](//elizas.website)
 - [J Haigh](//optimistictypes.com)
+- [Kylie Stewart](//kylieis.online)
 - [Harrison Goscenski](//hgoscenski.com)
 - [Manish Goregaokar](//manishearth.github.io)
 - [Michael Gattozzi](//mgattozzi.com)
 - [Quiet Misdreavus](//quietmisdreavus.net)
 
-[joke]: https://twitter.com/dril/status/760997832237129729
+[wiki]: https://en.wikipedia.org/wiki/Webring
