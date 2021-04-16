@@ -31,7 +31,7 @@ my phone (now iPhone, previously Android and Windows Phone). Enpass is the only
 product I’ve seen that has a native application for *all of them*.
 
 > 2021: 1Password now has a Linux desktop application in beta.
-{:.bq-info}
+{:.bq-info role="complementary"}
 
 Both Enpass and 1Password provide the following features that make them worth
 using:
@@ -90,7 +90,7 @@ web browser and a thin terminal connected to a more capable Linux server.
 > mainboard that can survive accidentally connecting 24 volts DC to the USB
 > socket and short-circuiting it and only destroying that USB port, not the rest
 > of the computer.
-{:.bq-harm .iso7010 .w012}
+{:.bq-harm .iso7010 .w012 role="complementary"}
 
 I built my first PC in 2013 (deceased 2017) and my second in 2015 (deceased
 2021). I intend to rebuild both of them once I have the spare time and money,

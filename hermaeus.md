@@ -11,7 +11,7 @@ summary: An explanation of my Hermaeus project.
 - [Documentation][doc]
 
 > I have not touched this since 2016.
-{:.bq-warn}
+{:.bq-warn role="complementary"}
 
 ## Overview
 

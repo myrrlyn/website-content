@@ -1,5 +1,5 @@
 ---
-title: ~/text.css
+title: ~/sample.rtf
 summary: A quick palette of how text is rendered here.
 ---
 
@@ -19,27 +19,25 @@ site, in order to provide quick visual testing of the overall theme.
 ###### Subheading
 
 > This is an ordinary blockquote with no semantic information attached.
->
-> > For undecorated blockquotes, nesting should introduce new margin indicators.
 
 <!-- -->
 
 > This is a danger blockquote.
 >
 > It requires two paragraphs in order for the image marker to not look terrible.
-{:.bq-harm .iso7010 .p010}
+{:.bq-harm .iso7010 .p010 role="complementary"}
 
 <!-- -->
 
 > This is a warning blockquote, warning of big stamps on short messages.
-{:.bq-warn .iso7010 .w027}
+{:.bq-warn .iso7010 .w027 role="complementary"}
 
 <!-- -->
 
 > This is a safety blockquote.
 >
 > It will contain reassuring or helpful information, in theory.
-{:.bq-safe .iso7010 .e003}
+{:.bq-safe .iso7010 .e003 role="complementary"}
 
 <!-- -->
 
@@ -47,7 +45,7 @@ site, in order to provide quick visual testing of the overall theme.
 >
 > It contains text that may be a fun parenthetical but does not otherwise carry
 > meaning.
-{:.bq-info .iso7010 .m002}
+{:.bq-info .iso7010 .m002 role="complementary"}
 
 This is **bold**, *italic*, and `inline code` text.
 
