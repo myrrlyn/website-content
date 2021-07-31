@@ -6,7 +6,7 @@ toc: false
 
 # Alexander Payne
 
-Pronouns: he/him
+Pronouns: he/they
 
 ## Introduction
 
