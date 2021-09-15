@@ -5,29 +5,62 @@ summary: My résumé
 
 I am a software engineer with experience in low-level firmware and application
 development. I am trained in technical writing and system design, with
-emphasises on user comprehension and fault tolerance.
+emphases on user comprehension and fault tolerance.
+
+## Capabilities
+
+- I am an expert with the Rust and C languages, and am strongly versed in C++.
+  I am most experienced in freestanding environments; I have a working knowledge
+  of their standard libraries but am only somewhat aware of operating-system
+  facilities.
+- I am a capable software architect and system designer.
+- I am a strong technical writer.
+- I am a rapid learner, and have a strong ability to understand technical
+  documents and synthesize project features that fulfill provided constraints
+  and requirements.
 
 ## Professional Experience
 
 I have been employed as a software engineer since 2016 Dec. The nature of my
-work as a federal subcontractor limits the detail I can write here.
+work in federal subcontracting and corporate R&D limits the detail I can write
+here.
+
+<!-- no I’m not
+
+### You?
+
+I am currently looking for my next opportunity. I have moved every year since
+2016 and intend to break the cycle this year. I will happily work from your
+office in the Washington, D.C., metro area, or remotely, until *at least* 2023.
+
+I am most skilled in Rust, C++, and C, employed in embedded or systems-level
+development. I am most capable with edge or server computing, though I am
+certainly interested in growing my applications-programming skills as well. I am
+comfortable with challenging software design problems and excel at finding
+correct, performant, and composable solutions to complex problems.
+
+-->
+
+### Fastly
+
+Dates: 2021 Sep 20 – present
 
 ### Amazon Web Services
 
-Dates: 2020 Jul 6 – present
+Dates: 2020 Jul 6 – 2021 Aug 6
 
 Role: Software Development Engineer
 
-Responsibility: I am the Rust subject matter expert on my team. We are
-researching Rust’s applicability for use in novel devices operating under tight
-performance constraints and subject to strict safety and correctness
-regulations.
+Responsibility: I was the Rust subject-matter-expert on my team. We researched
+Rust’s suitability for use in novel embedded devices operating under tight
+performance and security constraints. I designed and implemented device driver
+APIs, including direct register access and bindings to C vendor libraries.
+
+I am not at liberty to further discuss the details of my work at AWS.
 
 ### Space Dynamics Laboratory
 
 Dates: 2016 Dec 5 - 2020 May 28
-
-Departure: personal, voluntary, amicable
 
 Responsibility: I was a Satellite Software Engineer working on the development
 and testing of flight control systems of CubeSat research vehicles. I worked
@@ -59,8 +92,8 @@ In order of decreasing recency:
 
 - BioSentinel; NASA Ames
 
-  I wrote a kernel driver for VxWorks that bridged the primary computer and a
-  secondary FPGA holding multiple peripherals.
+  I wrote a kernel driver in C89 for VxWorks that bridged the primary computer
+  and a secondary FPGA holding multiple peripherals.
 
 ### Research
 

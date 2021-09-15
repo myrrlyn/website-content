@@ -12,13 +12,12 @@ Pronouns: he/they
 
 I’m a programmer and Boy Scout currently living in Arlington, VA. When I’m not
 at work or in the wilderness, I like to [write Rust][crates], SCUBA dive,
-carpent, tell my cat how good he is, drive across the continent, and listen to
+woodwork, tell my cat how good he is, drive across the continent, and listen to
 way, way too much girlpop.
 
-I’m currently employed as a software development engineer at Amazon Web
-Services, where I work on bringing Rust to embedded devices. I previously worked
-at Space Dynamics Laboratory as a satellite software engineer, developing flight
-and ground-control software for research satellites.
+I’m currently employed as a software engineer at Fastly. I have previously
+worked at Amazon Web Services, bringing Rust to embedded devices, and at Space
+Dynamics Laboratory, building and operating research CubeSats.
 
 I also volunteer with a local Scout troop, teaching aquatics and wilderness
 travel.
@@ -55,7 +54,7 @@ recognize what this implies for a lot of people’s decision-making process, so
 here are some explicit promises:
 
 - I will never ask for a non-public setting, nor will I approach to within my
-  arms’ reach.
+  arms’ reach without invitation.
 - At your discretion, you may freely suggest a less than public setting, or
   step closer.
 - I will not initiate physical contact but I accept the usual American fare of
@@ -65,7 +64,7 @@ here are some explicit promises:
 movements on Twitter. This offer absolutely stands when I am traveling as well
 as when I am home.
 
-[crates]: /crates "A sumary of my Rust F/LOSS work"
+[crates]: /crates "A summary of my Rust F/LOSS work"
 [email]: mailto:self@myrrlyn.dev "My email address"
 [gh]: https://github.com/myrrlyn "My GitHub profile"
 [ig]: https://instagr.am/myrrlyn "My Instagram gallery"
