@@ -40,6 +40,10 @@ idea but an irritating practice.
 
 <!-- - [Public Key][pubkey] -->
 
+If you *do* have my phone number, you *should*, but by no means must, use
+[Signal] to text me. Again, it’s more a habit thing than anything else; normal
+texts are also fine.
+
 ## Social Policy
 
 I have believed in the virtues of a strong and diverse social graph since the
@@ -64,6 +68,7 @@ here are some explicit promises:
 movements on Twitter. This offer absolutely stands when I am traveling as well
 as when I am home.
 
+[Signal]: https://signal.org/download/ "Download Signal"
 [crates]: /crates "A summary of my Rust F/LOSS work"
 [email]: mailto:self@myrrlyn.dev "My email address"
 [gh]: https://github.com/myrrlyn "My GitHub profile"
