@@ -29,7 +29,7 @@ then you want this library.
 ```rust
 use bitvec::prelude::*;
 
-static BITS: &'static BitSlice<Msb0, u16> = bits![Msb0, u8,
+static BITS: &'static BitSlice<Msb0, u16> = bits![static u8, Msb0;
   0, 1, 1, 0, 0, 0, 1, 0,
   0, 1, 1, 0, 1, 0, 0, 1,
   0, 1, 1, 1, 0, 1, 0, 0,
@@ -130,8 +130,9 @@ the library, enabling users to write `bits[span].load_or_store()` to move
 register values into and out of a `BitSlice` region, equivalent to C member
 bitfields.
 
-`bitvec` is now feature-complete, and I intend to publish `1.0` and switch to
-maintenance-only on 2021 Jun 28.
+`bitvec` is now feature-complete. I published version 1.0.0 on 2022 January 11,
+and will now provide only security and correctness maintenance until the Rust
+language advances enough to enable major changes.
 
 ## Type Parameters
 
