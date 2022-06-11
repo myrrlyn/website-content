@@ -10,14 +10,14 @@ Pronouns: he/they
 
 ## Introduction
 
-I’m a programmer and Boy Scout currently living in Arlington, VA. When I’m not
-at work or in the wilderness, I like to [write Rust][crates], SCUBA dive,
+I’m a programmer and Boy Scout currently living in Madison, Wisconsin. When I’m
+not at work or in the wilderness, I like to [write Rust][crates], SCUBA dive,
 woodwork, tell my cat how good he is, drive across the continent, and listen to
 way, way too much girlpop.
 
 I’m currently employed as a software engineer at Fastly. I have previously
 worked at Amazon Web Services, bringing Rust to embedded devices, and at Space
-Dynamics Laboratory, building and operating research CubeSats.
+Dynamics Laboratory, building and operating research small-satellites.
 
 I also volunteer with a local Scout troop, teaching aquatics and wilderness
 travel.
@@ -40,7 +40,7 @@ idea but an irritating practice.
 
 <!-- - [Public Key][pubkey] -->
 
-If you *do* have my phone number, you *should*, but by no means must, use
+If you *do* have my phone number, you *should*, but by no means *must*, use
 [Signal] to text me. Again, it’s more a habit thing than anything else; normal
 texts are also fine.
 
