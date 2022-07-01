@@ -33,6 +33,7 @@ idea but an irritating practice.
 - [Twitter][twitter]
 - [GitHub][gh]
 - [Reddit][reddit]
+- [Discord][discord] (`myrrlyn#0611`)
 - [Instagram][ig]
 - [Snapchat][snap]
 - [LinkedIn][linkedin] (I almost never maintain this)
@@ -70,6 +71,7 @@ as when I am home.
 
 [Signal]: https://signal.org/download/ "Download Signal"
 [crates]: /crates "A summary of my Rust F/LOSS work"
+[discord]: https://discordapp.com/users/200717485706575873 "My Discord profile"
 [email]: mailto:self@myrrlyn.dev "My email address"
 [gh]: https://github.com/myrrlyn "My GitHub profile"
 [ig]: https://instagr.am/myrrlyn "My Instagram gallery"

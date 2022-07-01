@@ -38,11 +38,12 @@ benefits a primary goal of my career and personal life.
 
 ## Personal Life
 
-After university, I lived in Logan, Utah and Albuquerque, New Mexico before
-moving to Arlington, Virginia for my new job. My friends from camp and college
-are mostly back in the Great Lakes, and my friends from work are primarily in
-San Francisco and New England, so the physical distance encourages my strong
-online social presence.
+After university, I lived in Logan, Utah; Albuquerque, New Mexico, and
+Arlington, Virginia for my work. My friends from camp and college are mostly
+back in the Great Lakes, and my friends from work are primarily in San Francisco
+and New England, so the physical distance encourages my strong online social
+presence. I’m now living in Madison, Wisconsin with my fiancée and within
+driving range of some friends and family, which I appreciate a lot.
 
 I have volunteered as a leader and instructor with Scout troops in every area
 I have lived. Scouting has been a fundamental aspect of my life since I was six
@@ -61,9 +62,10 @@ listing these to establish a common understanding, not to limit scope or compare
 pains.
 
 I lost my father to brain cancer through the back half of 2018, my grandmother
-to the COVID-19 pandemic in 2020 Apr, and both of the family cats in 2020 Sep.
-I have written on Twitter about the costs of survival in the hopes that my
-experience can be useful to anyone else going through similar circumstances.
+to the COVID-19 pandemic in 2020 April, and both of the family cats in 2020
+September. I have written on Twitter about the costs of survival in the hopes
+that my experience can be useful to anyone else going through similar
+circumstances.
 
 I am a relatively rare figure, at least in my social circles so far, in that I
 have received violent domestic abuse and written about it publicly. You may read
@@ -75,4 +77,4 @@ now recovered and largely beyond it, though lingering intrusive thoughts remain.
 In my experience, this is a *frighteningly* common phenomenon across American
 youth and early adults. You may write to me if you share it.
 
-[dv]: ./blog/misc/dv
+[dv]: /blog/misc/dv
