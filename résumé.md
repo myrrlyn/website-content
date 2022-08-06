@@ -45,6 +45,9 @@ correct, performant, and composable solutions to complex problems.
 
 Dates: 2021 Sep 20 – present
 
+I help maintain the `h2o` web server and teach effective use of Rust segments
+within a primarily C codebase.
+
 ### Amazon Web Services
 
 Dates: 2020 Jul 6 – 2021 Aug 6

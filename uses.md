@@ -90,7 +90,7 @@ web browser and a thin terminal connected to a more capable Linux server.
 > mainboard that can survive accidentally connecting 24 volts DC to the USB
 > socket and short-circuiting it and only destroying that USB port, not the rest
 > of the computer.
-{:.bq-harm .iso7010 .w012 role="complementary"}
+{:.bq-warn .iso7010 .w012 role="complementary"}
 
 I built my first PC in 2013 (deceased 2017) and my second in 2015 (deceased
 2021). I intend to rebuild both of them once I have the spare time and money,
