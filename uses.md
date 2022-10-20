@@ -103,9 +103,6 @@ Maintaining an Arch desktop in working condition for six years was actually
 fairly easy, other than the initial learning wall and some sporadic hardware
 failures. I enjoyed it a lot.
 
-My primary work environment is now an AWS rented machine which, at about $20/mo,
-will remain cheaper than repairing the deceased desktops for several years.
-
 ## Phones
 
 I started on a Nokia Lumia 920, then 1020. I maintain that those phones, and the
@@ -157,16 +154,13 @@ C, C++, and JavaScript, though I generally don’t use them unless required.
 
 ### Web Presence
 
-I currently use [DNSimple] for my domain names, [DigitalOcean] for my web-facing
-servers, and [AWS] for my personal machines. AWS employees don’t get pain in
-store credit and DO is cheaper for continuous uptime.
+I currently use [DNSimple] for my domain names and [fly.io] for my web-facing
+servers.
 
 [1Password]: https://1password.com/
-[AWS]: https://aws.amazon.com/
 [Arch Linux]: https://archlinux.org/
 [Cascadia Code]: https://github.com/Microsoft/Cascadia-Code
 [DNSimple]: https://dnsimple.com/
-[DigitalOcean]: https://digitalocean.com/
 [Dvorak]: https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
 [Enpass]: https://enpass.io
 [Iosevka]: https://typeof.net/Iosevka
@@ -175,4 +169,5 @@ store credit and DO is cheaper for continuous uptime.
 [Roboto]: https://fonts.google.com/specimen/Roboto
 [Visual Studio Code]: https://code.visualstudio.com/
 [WASD]: https://www.wasdkeyboards.com/
+[fly.io]: https://fly.io/
 [`uses.tech`]: https://uses.tech/
