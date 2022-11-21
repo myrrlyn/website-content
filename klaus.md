@@ -27,12 +27,12 @@ midshipmen. With 25% female composition, this implies approximately 818 male
 midshipmen in the class of 2018. Using the traditional parameter of 2% of
 midshipmen partaking in a committed relationship, this leaves an estimate of 795
 eligible male midshipmen in the class of 2018. Each of these midshipmen presents
-an opportunity to attend the 2018 ring dance on May 20<sup>th</sup>, 2017.
-However, the fairly ubiquitous opportunity to attend Ring Dance is a completely
-different offer from the incredibly unique opportunity to attend Ring Dance with
-me. The opportunity to attend Ring Dance with me is a *sui generis* experience
-because it is a distinctly more excellent happening, guaranteed to be a cut
-above attending Ring Dance with any of the multitudinous alternative options
+an opportunity to attend the 2018 ring dance on May 20^th^, 2017. However, the
+fairly ubiquitous opportunity to attend Ring Dance is a completely different
+offer from the incredibly unique opportunity to attend Ring Dance with me. The
+opportunity to attend Ring Dance with me is a *sui generis* experience because
+it is a distinctly more excellent happening, guaranteed to be a cut above
+attending Ring Dance with any of the multitudinous alternative options
 available.
 
 I would like to invite your organization, all members of your organizations, and
@@ -182,8 +182,5 @@ Currently selling myself. Customers include:
 A degree of experience which is adequate, but not trashy
 
 [casual]: https://myrrlyn.net/static/images/klaus/casual.jpg
-[clock]: https://myrrlyn.net/static/images/klaus/clock.jpg
 [formal]: https://myrrlyn.net/static/images/klaus/formal.jpg
-[lamp]: https://myrrlyn.net/static/images/klaus/lamp.png
-[logos]: https://myrrlyn.net/static/images/klaus/logos.jpg
 [sig]: https://myrrlyn.net/static/images/klaus/signature.png

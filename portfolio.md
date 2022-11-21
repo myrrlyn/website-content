@@ -1,6 +1,6 @@
 ---
 title: Portfolio – Alexander Payne
-summary: >
+summary: |
   A list of various public works I’ve done since 2013.
 ---
 

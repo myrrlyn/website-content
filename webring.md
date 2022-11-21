@@ -4,7 +4,7 @@ summary: Here are some of my friends.
 ---
 
 Back when the internet was <del>good</del> <ins>younger</ins>, people with
-similar sites [clustered together][wiki]. Between search engines and centralized
+similar sites [clustered together][0]. Between search engines and centralized
 social media, this practice is pretty much obsolete (but with federation, maybe
 it’s coming back? Who knows!).
 
@@ -25,4 +25,4 @@ Anyway, here are some friends I think are neat.
 - [Victoria Mitchell](//quietmisdreavus.net)
 - [wiggles](//16kpbs.net)
 
-[wiki]: https://en.wikipedia.org/wiki/Webring
+[0]: https://en.wikipedia.org/wiki/Webring

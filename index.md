@@ -30,8 +30,10 @@ You are welcome, but by no means required, to use my public key. It’s a good
 idea but an irritating practice.
 
 - [Email][email]
-- [Twitter][twitter]
+- [Twitter][twitter] (I probably am not active on this anymore)
+- [Mastodon][mastodon]{:rel="me"}
 - [GitHub][gh]
+- [Cohost][cohost]
 - [Reddit][reddit]
 - [Discord][discord] (`myrrlyn#0611`)
 - [Instagram][ig]
@@ -70,6 +72,7 @@ movements on Twitter. This offer absolutely stands when I am traveling as well
 as when I am home.
 
 [Signal]: https://signal.org/download/ "Download Signal"
+[cohost]: https://cohost.org/myrrlyn "My Cohost profile"
 [crates]: /crates "A summary of my Rust F/LOSS work"
 [discord]: https://discordapp.com/users/200717485706575873 "My Discord profile"
 [email]: mailto:self@myrrlyn.dev "My email address"
@@ -77,7 +80,7 @@ as when I am home.
 [ig]: https://instagr.am/myrrlyn "My Instagram gallery"
 [kb]: https://keybase.io/myrrlyn "My Keybase profile"
 [linkedin]: https://linkedin.com/in/myrrlyn "My LinkedIn profile"
-[pubkey]: /static/myrrlyn.asc "My PGP public key"
+[mastodon]: https://hachyderm.io/@myrrlyn "My primary Mastodon account"
 [reddit]: https://reddit.com/u/myrrlyn "My reddit account"
 [snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"
 [twitter]: https://twitter.com/myrrlyn "My Twitter account"

@@ -16,11 +16,6 @@ Some document classes may prefer not to include explicit title `h1` elements,
 and will instead rely on the template to render the `title` and `subtitle`
 metadata in the article.
 
-The HTML5 specification for headings indicates that only one `h1` should be
-present in any given `<article>`. My oeuvre uses headings for formatting
-elements, per the original reddit limitations. Those documents are exempt from
-this rule until I have time to mark them properly for font size changes.
-
 ## YAML Frontmatter
 
 The YAML schema is as follows:
