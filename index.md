@@ -80,7 +80,7 @@ as when I am home.
 [ig]: https://instagr.am/myrrlyn "My Instagram gallery"
 [kb]: https://keybase.io/myrrlyn "My Keybase profile"
 [linkedin]: https://linkedin.com/in/myrrlyn "My LinkedIn profile"
-[mastodon]: https://hachyderm.io/@myrrlyn "My primary Mastodon account"
+[mastodon]: https://tacobelllabs.net/@myrrlyn "My primary Mastodon account"
 [reddit]: https://reddit.com/u/myrrlyn "My reddit account"
 [snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"
 [twitter]: https://twitter.com/myrrlyn "My Twitter account"
