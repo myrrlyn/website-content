@@ -10,10 +10,9 @@ emphases on user comprehension and fault tolerance.
 ## Capabilities
 
 - I am an expert with the Rust and C languages, and am strongly versed in C++.
-  I am most experienced in freestanding environments; I have a working knowledge
-  of their standard libraries but am only somewhat aware of operating-system
-  facilities.
-- I am a capable software architect and system designer.
+  I am most experienced in freestanding and Linux environments; I have not used
+  Windows or macOS system APIs directly.
+- I am an able software architect and system designer.
 - I am a strong technical writer.
 - I am a rapid learner, and have a strong ability to understand technical
   documents and synthesize project features that fulfill provided constraints
@@ -25,13 +24,12 @@ I have been employed as a software engineer since 2016 Dec. The nature of my
 work in federal subcontracting and corporate R&D limits the detail I can write
 here.
 
-<!-- no I’m not
-
 ### You?
 
-I am currently looking for my next opportunity. I have moved every year since
-2016 and intend to break the cycle this year. I will happily work from your
-office in the Washington, D.C., metro area, or remotely, until *at least* 2023.
+I am currently looking for my next opportunity. I have moved every year from
+2016 through 2022, when I finally bought a house in Madison, WI. I am not
+willing to move again, and expect to work remotely, or no more than two days a
+week in the Great Lakes area (Minneapolis, Chicago, or Detroit).
 
 I am most skilled in Rust, C++, and C, employed in embedded or systems-level
 development. I am most capable with edge or server computing, though I am
@@ -39,14 +37,18 @@ certainly interested in growing my applications-programming skills as well. I am
 comfortable with challenging software design problems and excel at finding
 correct, performant, and composable solutions to complex problems.
 
--->
-
 ### Fastly
 
-Dates: 2021 Sep 20 – present
+Dates: 2021 Sep 20 – 2023 Jan 13
 
-I help maintain the `h2o` web server and teach effective use of Rust segments
-within a primarily C codebase.
+Role: Senior Software Engineer
+
+Responsibility: I worked on the H2O web server to improve Fastly’s capabilities
+for traffic handling at the edge of its network. My team decided to start
+writing new logic in Rust, and I helped us introduce Rust into a large C
+codebase. I implemented modules with logic on both sides of the FFI boundary and
+designed a bindings crate so that HTTP handlers could be written in Rust and
+used by H2O.
 
 ### Amazon Web Services
 
@@ -70,11 +72,31 @@ and testing of flight control systems of CubeSat research vehicles. I worked
 primarily in C++, with some C for more esoteric devices and Ruby for ground
 control software.
 
-Certifications: TS/SCI
+Certifications: TS/SCI clearance (expires 2023 Aug)
 
-#### Projects
+## Notable Projects
 
-In order of decreasing recency:
+### Open-Source
+
+I am the primary maintainer of the [Ferrilab][ferrilab] project’s crates. I
+invented [`bitvec`][bv], which implements bit-precision addressing as a Rust
+library and fits directly into Rust’s existing language patterns, type system,
+and library interfaces. I also maintain `radium`, which unifies atomic and
+non-atomic shared-mutability interfaces; `funty`, which provides a simple
+unification of the Rust primitive types (integers and pointer mutability); and
+`tap`, which allows writing method-call chains with functions that cannot be
+method-called directly.
+
+### Commerical
+
+At Fastly, I worked on Fastly’s internal extensions to the H2O web server. These
+extensions are corporate secrets, but involved analysis and management of
+aggregate ingress traffic.
+
+At AWS, I designed the unikernel software and device drivers used to control a
+hybrid Cortex-A/Cortex-R system.
+
+At SDL, I worked on these projects in order of decreasing recency:
 
 - VPM; USAF/Kirtland AFB
 
@@ -143,4 +165,5 @@ Notable courses:
 [bv]: ./crates/bv
 [cosmos]: https://cosmosrb.com
 [crates]: ./crates
+[ferrilab]: https://github.com/ferrilab/ferrilab
 [srd]: https://www.youtube.com/watch?v=K3CKSovJbJQ
