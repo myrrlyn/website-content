@@ -11,7 +11,7 @@ summary: An explanation of my Hermaeus project.
 - [Documentation][doc]
 
 > I have not touched this since 2016.
-{:.bq-info .iso7010 .m006 role="complementary"}
+{:role="complementary" .bq-info .iso7010 .m006}
 
 ## Overview
 

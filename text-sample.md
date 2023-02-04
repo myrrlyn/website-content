@@ -25,19 +25,19 @@ site, in order to provide quick visual testing of the overall theme.
 > This is a danger blockquote.
 >
 > It requires two paragraphs in order for the image marker to not look terrible.
-{:.bq-harm .iso7010 .p010 role="complementary"}
+{:role="complementary" .bq-harm .iso7010 .p010}
 
 <!-- -->
 
 > This is a warning blockquote, warning of big stamps on short messages.
-{:.bq-warn .iso7010 .w027 role="complementary"}
+{:role="complementary" .bq-warn .iso7010 .w027}
 
 <!-- -->
 
 > This is a safety blockquote.
 >
 > It will contain reassuring or helpful information, in theory.
-{:.bq-safe .iso7010 .e003 role="complementary"}
+{:role="complementary" .bq-safe .iso7010 .e003}
 
 <!-- -->
 
@@ -45,7 +45,7 @@ site, in order to provide quick visual testing of the overall theme.
 >
 > It contains text that may be a fun parenthetical but does not otherwise carry
 > meaning.
-{:.bq-info .iso7010 .m002 role="complementary"}
+{:role="complementary" .bq-info .iso7010 .m002}
 
 This is **bold**, *italic*, and `inline code` text.
 

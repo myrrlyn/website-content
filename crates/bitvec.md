@@ -113,7 +113,7 @@ describe *any* region of memory as a [`BitSlice`].
 > level, and both the standard library and I reserve the right to modify the
 > layout at any time without causing an API breaking change.
 > {:.iso7010 .p015}
-{:.bq-harm role="complementary"}
+{:role="complementary" .bq-harm}
 
 Once I established an encoding of element address, starting bit, and bit count
 into a standard Rust slice pointer, I was able to use the full idiomatic API and
@@ -162,7 +162,7 @@ significant bit and counts to the right.
 > layouts, before writing any code that relies on memory representation! This is
 > a powerful tool that can and will surprise you painfully once you try anything
 > other than `<Msb0, u8>`.
-{:.bq-info .iso7010 .m002 role="complementary"}
+{:role="complementary" .bq-info .iso7010 .m002}
 
 ## Conveniences
 
@@ -231,7 +231,7 @@ As the standard library grows and evolves, `bitvec` will mirror it.
 > While this is a hobby project, it is one that I take extremely seriously. I
 > cannot guarantee full-time responsiveness, as I am not paid for work on it,
 > but I will always do my best to ensure quality and provide active support.
-{:.bq-safe .iso7010 .e004 role="complementary"}
+{:role="complementary" .bq-safe .iso7010 .e004}
 
 [`BitArray`]: https://docs.rs/bitvec/latest/bitvec/array/struct.BitArray.html
 [`BitOrder`]: https://docs.rs/bitvec/latest/bitvec/order/trait.BitOrder.html

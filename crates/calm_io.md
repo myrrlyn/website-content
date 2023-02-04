@@ -24,7 +24,7 @@ prevents exiting due to broken pipe from reporting failure in the exit code.
 > Caveat: I have no idea what the Windows shell environment is like, so read all
 > of the below with an implicit “on Unix-y systems” disclaimer, which really
 > means “I tested it on Linux and macOS”.
-{:.bq-warn .iso7010 .w001 role="complementary"}
+{:role="complementary" .bq-warn .iso7010 .w001}
 
 Shell pipelines connect programs to each other for streaming, parallel, data
 operations. Unix shells translate command strings like `a | b | c` into parallel
@@ -70,7 +70,7 @@ to a program generally results in immediate teardown.
 > *Unless* you use `set -euo pipefail`, in which case a broken pipe will not
 > only poison the whole pipeline (`-o pipefail`), but it’ll also crash the
 > whole script (`-e`). Not great!
-{:.bq-warn .iso7010 .w002 role="complementary"}
+{:role="complementary" .bq-warn .iso7010 .w002}
 
 The default Rust runtime masks `SIGPIPE`, so that its delivery has no effect.
 This means that Rust programs continue executing after `SIGPIPE` is delivered,
@@ -162,7 +162,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace.
 > Incidentally, not only is my implementation of `yes` better for the
 > environment, it’s also *faster* than GNU `yes` (on my machine). There’s a very
 > real danger that rewriting programs in Rust makes them better in every regard.
-{:.bq-warn .iso7010 .w028 role="complementary"}
+{:role="complementary" .bq-warn .iso7010 .w028}
 
 [complaining]: https://twitter.com/myrrlyn/status/1170035475593064448
 [source]:      https://github.com/myrrlyn/calm_io "Source Code"
