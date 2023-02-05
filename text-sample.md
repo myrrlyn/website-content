@@ -70,7 +70,7 @@ where O: BitOrder, T: BitStore {
 }
 ```
 
-```text
+```plain
 This block is ordinary text and
 should never be syntax highlit.
 
