@@ -1,10 +1,8 @@
 ---
-title: About Alexander Payne
+title: About Me
 summary: A long-form profile of me.
 toc: false
 ---
-
-# About Me
 
 I was born and raised in rural Minnesota, about an hour southwest of the Twin
 Cities. I’ve always displayed a natural thirst for knowledge, especially about
