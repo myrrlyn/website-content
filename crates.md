@@ -1,10 +1,9 @@
 ---
-title: Crates by myrrlyn
+title: My Crates
+tab_title: ~myrrlyn/crates
 toc: false
 summary: My open-sourced Rust projects.
 ---
-
-# My Crates
 
 This is a summary of Rust projects I have written.
 

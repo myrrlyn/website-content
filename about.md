@@ -1,5 +1,6 @@
 ---
 title: About Me
+tab_title: About myrrlyn
 summary: A long-form profile of me.
 toc: false
 ---

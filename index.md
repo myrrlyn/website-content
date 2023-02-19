@@ -1,10 +1,9 @@
 ---
-title: "~myrrlyn/"
+title: "Alexander Payne"
+tab_title: ~myrrlyn/
 summary: My homepage.
 toc: false
 ---
-
-# Alexander Payne
 
 Pronouns: he/they
 
@@ -15,9 +14,12 @@ not at work or in the wilderness, I like to [write Rust][crates], SCUBA dive,
 woodwork, tell my cat how good he is, drive across the continent, and listen to
 way, way too much girlpop.
 
-I’m currently employed as a software engineer at Fastly. I have previously
-worked at Amazon Web Services, bringing Rust to embedded devices, and at Space
-Dynamics Laboratory, building and operating research small-satellites.
+I am currently looking for my next opportunity! You can read my long-form
+[résumé] to see if I would be a good fit for your company.
+
+I’ve previously worked as a software engineer at Fastly on the H2O web server,
+at Amazon Web Services bringing Rust to embedded devices, and at Space
+Dynamics Laboratory building and operating research small-satellites.
 
 I also volunteer with a local Scout troop, teaching aquatics and wilderness
 travel.
@@ -82,5 +84,6 @@ as when I am home.
 [linkedin]: https://linkedin.com/in/myrrlyn "My LinkedIn profile"
 [mastodon]: https://tacobelllabs.net/@myrrlyn "My primary Mastodon account"
 [reddit]: https://reddit.com/u/myrrlyn "My reddit account"
+[résumé]: /resume
 [snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"
 [twitter]: https://twitter.com/myrrlyn "My Twitter account"

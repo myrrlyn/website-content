@@ -15,7 +15,7 @@ summary: Here are some of my friends.
 ----
 
 - [Amanda](//notawful.org)
-- [Arshia Mufti](//arshiamufti.com)
+- [Arshia Mufti](//arshia.substack.com)
 - [Cassie Jones](//witchoflight.com)
 - [David Barsky](//davidbarsky.com)
 - [Eliza Weisman](//elizas.website)

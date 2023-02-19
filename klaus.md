@@ -1,15 +1,24 @@
 ---
-title: Dance with Klaus Payne!
+title: Dance with Midshipman 2/C Klaus Payne
+tab_title: Dance with Klaus Payne!
 summary: A flyer advertising Klaus Payne’s social eligibility.
 meta:
 - robots: noindex
 ---
 
-# Dance with Midshipman 2/C Klaus Payne
+> Note from Alex:
+>
+> In 2017, my brother was a third-year student at the United States Naval
+> Academy (they count down from 4/C as freshmen to 1/C as seniors), and asked me
+> to host a résumé/advertisement he could use to ask the nearby girls’ college
+> if anyone wanted to attend the Naval version of prom with him.
+>
+> Somehow, it worked.
+{:role="complementary"}
 
 ## Introductory Letter
 
-![Klaus in uniform][formal]{:.img .portrait .float-right}
+![Klaus in uniform][formal]{:#formal .img .portrait}
 
 <p id="date"></p>
 
@@ -45,7 +54,7 @@ so that you may be assured of the quality of experience awaiting you.
 
 **Sincerely,**
 
-> ![Klaus’s signature][sig]
+> ![Klaus’s signature][sig]{:#signature}
 >
 > **Nicholas (Klaus) Frederick Payne**
 
@@ -53,17 +62,19 @@ so that you may be assured of the quality of experience awaiting you.
 
 ## Physical Information
 
-![Klaus doing a ridiculous pose][casual]{:#casual .portrait .float-right}
+![Klaus doing a ridiculous pose][casual]{:#casual .img .portrait}
 
-- Height: 6’1” (185cm)
-- Weight: 183±3 lb (83±1.3 kg)
-- BMI: \\(24.1 \frac{lb}{ft^{2}}\\) (\\(11.7 \frac{g}{cm^{2}}\\))
-- Hair color: Natural blond
-- Eye color: Cornflower, nay, **rabbit hole** blue ¹
-- Adequacy: **TBD**
-- PRT Score: 100 <small>(that’s a lot)</small>
-- Muscle tone: Present
-- Body type: Adonis-esque, “soft” ²
+<ul>
+<li>Height: 6’1” (185cm)</li>
+<li>Weight: 183±3 lb (83±1.3 kg)</li>
+<li>BMI: \(24.1 \frac{lb}{ft^{2}}\) (\(11.7 \frac{g}{cm^{2}}\))</li>
+<li>Hair color: Natural blond</li>
+<li>Eye color: Cornflower, nay, <em>rabbit hole</em> blue ¹</li>
+<li>Adequacy: <strong>TBD</strong></li>
+<li>PRT Score: 100 <small>(that’s a lot)</small></li>
+<li>Muscle tone: Present</li>
+<li>Body type: Adonis-esque, “soft” ²</li>
+</ul>
 
 <small>
 <ol>
@@ -165,7 +176,7 @@ Currently selling myself. Customers include:
 
 ## Experience
 
-### Midshipman │ United States Naval Academy │ 2014 June 1 – present
+### Midshipman │ United States Naval Academy │ 2014 June 1 – 2018 May 26
 
 {:.small-caps .no-toc}
 

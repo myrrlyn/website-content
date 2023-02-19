@@ -13,6 +13,10 @@
 		p {
 			max-width: 45em;
 		}
+
+		.hidden {
+			display: none;
+		}
 	</style>
 </head>
 
@@ -25,8 +29,8 @@
 		from the orange website, Hacker News.
 	</p>
 	<p>
-		Based on historical statistics, it is highly likely that you are a
-		bad person and we do not get along. Therefore, I am exercising my
+		Based on historical statistics, it is highly likely that you are an
+		annoying person and we do not get along. Therefore, I am exercising my
 		First Amendment right as an American to freely refuse to associate
 		with you.
 	</p>
@@ -45,15 +49,19 @@
 		var timer;
 		timer = window.setInterval(() => {
 			if (countdown == 0) {
-				window.clearInterval(timer);
-				window.history.back();
-				window.close();
-				return;
 			}
 			countdown -= 1;
 			countdown_elem.innerText = countdown.toString();
 			if (countdown == 0) {
-				document.getElementsByTagName("body")[0].innerHTML = "";
+				window.clearInterval(timer);
+				document.querySelector("body").innerHTML = "<h1>Go away</h1>";
+				// Attempt to go to the previous page. This function only
+				// observably returns when there is no prior page, in which case
+				// we just close the window.
+				if (window.history.back() === undefined) {
+					window.close();
+				}
+				return;
 			}
 		}, 1000);
 		document.getElementById("timer-message").classList.remove("hidden");

@@ -104,9 +104,6 @@ describe *any* region of memory as a [`BitSlice`].
 > between the opaque slice pointer type and its own internal data structures.
 > {:.iso7010 .p010}
 >
-> > Not being able to write `[T]` inside a Markdown link text is an infuriating
-> > limitation.
->
 > You must **never** attempt to view the contents of a Rust or `bitvec` region
 > pointer except through the provided de/composing APIs. While these layouts are
 > guaranteed at the machine level, they are *not* guaranteed at the source

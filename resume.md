@@ -1,6 +1,7 @@
 ---
 title: Résumé – Alexander Payne
 summary: My résumé
+tab_title: "~myrrlyn/résumé"
 ---
 
 I am a software engineer with experience in low-level firmware and application
@@ -89,6 +90,11 @@ method-called directly.
 
 ### Commerical
 
+> I am being more cautious about concealing details on this page than I strictly
+> need to. I am able and willing to talk about the nature of my work in more
+> depth during conversation.
+{:role="complementary" .bq-safe .iso7010 .e023}
+
 At Fastly, I worked on Fastly’s internal extensions to the H2O web server. These
 extensions are corporate secrets, but involved analysis and management of
 aggregate ingress traffic.
@@ -126,20 +132,29 @@ As part of my work with the [COSMOS][cosmos] framework, I wrote Rust programs to
 act as data pipeline filters and C++/Ruby code generators. This research
 indirectly led to the creation of [`bitvec`][bv].
 
+My work on the Ferrilab crates explores the boundaries of Rust’s type system and
+abstract-machine rules, and has been used for case studies in Miri’s
+development.
+
 ## Personal Experience
 
-I develop software for a hobby as well as for a career.
+I develop software for a hobby as well as for a career. I have been able to
+maintain a good separation of my work and hobby pursuits, which allows me to
+broaden my skills without incurring burnout.
 
 ### Rust Crates
 
 I am the author or maintainer of a number of Rust libraries. You can read more
 about them at my [crate listing][crates]. I have been an active Rust author
-since 2016, and am considered an expert by my employer and the general Rust
+since 2016, and am considered an expert by my employers and the general Rust
 community.
 
 ### Web Design
 
-This website is self-authored, atop the Phoenix framework.
+This website is self-authored, atop the Phoenix framework. I first learned Sass
+in 2013, and have kept current as modern HTML and CSS standards have evolved. I
+am working on building more complex CRUD applications for myself, but am not
+ready to publish any of them yet.
 
 ## Education
 
