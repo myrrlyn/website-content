@@ -1,11 +1,8 @@
 ---
 title: My Crates
 tab_title: ~myrrlyn/crates
-toc: false
 summary: My open-sourced Rust projects.
 ---
-
-This is a summary of Rust projects I have written.
 
 ## `bitvec`
 
@@ -28,7 +25,7 @@ that demand *references* to a memory region, rather than *handles* to it. This
 functionality allows `bitvec` to be drop-in compatible with existing code, with
 only one exception.
 
-### `radium`
+## `radium`
 
 [More details](./crates/radium)
 

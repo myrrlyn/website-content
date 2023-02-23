@@ -168,11 +168,12 @@ Currently selling myself. Customers include:
 - Woodworking – grew up in a cabinet maker’s shop and am known to procure
   trinkets or gifts. Examples are shown below.
 
-<div id="img-gallery">
-<div id="klaus-lamp" class="img-row"></div>
-<div id="klaus-clock" class="img-row"></div>
-<div id="klaus-logos" class="img-row"></div>
-</div>
+> ![](/static/images/klaus/lamp.png){:.flex-1}
+>
+> ![](/static/images/klaus/clock.jpg){:.flex-1}
+>
+> ![](/static/images/klaus/logos.jpg){:.flex-2}
+{:tag="div" #portfolio .img-flex}
 
 ## Experience
 
@@ -192,6 +193,6 @@ Currently selling myself. Customers include:
 
 A degree of experience which is adequate, but not trashy
 
-[casual]: https://myrrlyn.net/static/images/klaus/casual.jpg
-[formal]: https://myrrlyn.net/static/images/klaus/formal.jpg
-[sig]: https://myrrlyn.net/static/images/klaus/signature.png
+[casual]: /static/images/klaus/casual.jpg
+[formal]: /static/images/klaus/formal.jpg
+[sig]: /static/images/klaus/signature.png
