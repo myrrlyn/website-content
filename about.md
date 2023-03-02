@@ -1,7 +1,7 @@
 ---
 title: About Me
-tab_title: About myrrlyn
 toc: false
+summary: A brief biography of me.
 ---
 
 I was born and raised in rural Minnesota, about an hour southwest of the Twin

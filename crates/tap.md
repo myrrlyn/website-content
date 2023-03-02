@@ -6,7 +6,6 @@ title: Suffix Tapping
 [![Documentation](https://docs.rs/tap/badge.svg "Crate docs){:.unset}](https://docs.rs/tap/ "Documentation")
 [![License](https://img.shields.io/crates/l/tap.svg "Crate license"){:.unset}](https://github.com/myrrlyn/tap/blob/develop/LICENSE.txt "License")
 [![Downloads](https://img.shields.io/crates/dv/tap.svg "Crate downloads"){:.unset}](https://crates.io/crates/tap "Crate")
-[![Lines of Code](https://tokei.rs/b1/github/myrrlyn/tap?category=code "Crate size"){:.unset}](https://github.com/myrrlyn/tap "Repository")
 
 - [Source code](https://github.com/myrrlyn/tap)
 

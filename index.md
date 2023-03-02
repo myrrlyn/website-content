@@ -1,6 +1,5 @@
 ---
-title: "Alexander Payne"
-tab_title: ~myrrlyn/
+title: Alexander Payne
 summary: My homepage.
 toc: false
 ---

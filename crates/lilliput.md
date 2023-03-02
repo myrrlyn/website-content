@@ -2,6 +2,11 @@
 title: Lilliputian Structures
 ---
 
+> Rust version: 1.20
+>
+> I have not come back to this project in a *very* long time.
+{:tag="aside" .bq-info}
+
 |          `endian_trait`           |       `endian_trait_derive`       |
 | :-------------------------------: | :-------------------------------: |
 | [![Crate Version][1]{:.unset}][1] | [![Crate Version][2]{:.unset}][2] |

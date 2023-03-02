@@ -6,7 +6,6 @@ title: bitvec
 [![Documentation](https://docs.rs/bitvec/badge.svg "Crate docs){:.unset}](https://docs.rs/bitvec/ "Documentation")
 [![License](https://img.shields.io/crates/l/bitvec.svg "Crate license"){:.unset}](https://github.com/bitvecto-rs/bitvec/blob/develop/LICENSE.txt "License")
 [![Downloads](https://img.shields.io/crates/dv/bitvec.svg "Crate downloads"){:.unset}](https://crates.io/crates/bitvec "Crate")
-[![Lines of Code](https://tokei.rs/b1/github/bitvecto-rs/bitvec?category=code "Crate size"){:.unset}](https://github.com/bitvecto-rs/bitvec "Repository")
 
 - [Source code](https://github.com/bitvecto-rs/bitvec)
 
@@ -110,7 +109,7 @@ describe *any* region of memory as a [`BitSlice`].
 > level, and both the standard library and I reserve the right to modify the
 > layout at any time without causing an API breaking change.
 > {:.iso7010 .p015}
-{:role="complementary" .bq-harm}
+{:tag="aside" .bq-harm}
 
 Once I established an encoding of element address, starting bit, and bit count
 into a standard Rust slice pointer, I was able to use the full idiomatic API and
@@ -159,7 +158,7 @@ significant bit and counts to the right.
 > layouts, before writing any code that relies on memory representation! This is
 > a powerful tool that can and will surprise you painfully once you try anything
 > other than `<Msb0, u8>`.
-{:role="complementary" .bq-info .iso7010 .m002}
+{:tag="aside" .bq-info .iso7010 .m002}
 
 ## Conveniences
 
@@ -228,7 +227,7 @@ As the standard library grows and evolves, `bitvec` will mirror it.
 > While this is a hobby project, it is one that I take extremely seriously. I
 > cannot guarantee full-time responsiveness, as I am not paid for work on it,
 > but I will always do my best to ensure quality and provide active support.
-{:role="complementary" .bq-safe .iso7010 .e004}
+{:tag="aside" .bq-safe .iso7010 .e004}
 
 [`BitArray`]: https://docs.rs/bitvec/latest/bitvec/array/struct.BitArray.html
 [`BitOrder`]: https://docs.rs/bitvec/latest/bitvec/order/trait.BitOrder.html

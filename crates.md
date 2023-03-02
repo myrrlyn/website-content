@@ -1,6 +1,5 @@
 ---
 title: My Crates
-tab_title: ~myrrlyn/crates
 summary: My open-sourced Rust projects.
 ---
 
@@ -87,5 +86,3 @@ does not have to be configured to do so. It also provides macros that allow
 aggregates of reörderable types to be themselves reörderable, so that users do
 not have to descend to each leaf integer and flip it as part of
 de/serialization.
-
-[More details](./crates/lilliput)

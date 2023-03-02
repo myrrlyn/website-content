@@ -14,7 +14,7 @@ meta:
 > if anyone wanted to attend the Naval version of prom with him.
 >
 > Somehow, it worked.
-{:role="complementary"}
+{:tag="aside"}
 
 ## Introductory Letter
 

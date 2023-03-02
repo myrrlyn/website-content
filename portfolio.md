@@ -1,7 +1,7 @@
 ---
-title: Portfolio – Alexander Payne
-summary: |
-  A list of various public works I’ve done since 2013.
+title: My Portfolio
+tab_title: Portfolio – Alexander Payne
+summary: A list of various public works I’ve done since 2013.
 ---
 
 Here are some faded aspects of my hobby. Other than my F/LOSS work, these
@@ -115,7 +115,6 @@ publicize any part of the code yet.
 [hm-gh]: https://github.com/myrrlyn/hermaeus
 [hm-myrr]: https://myrrlyn.net/hermaeus
 [pages]: https://github.com/myrrlyn/pages
-[sass]: http://sass-lang.com
 [site]: https://github.com/myrrlyn/home
 [srd]: https://github.com/myrrlyn/SeniorDesign
 [tsl]: https://reddit.com/r/teslore

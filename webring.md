@@ -10,9 +10,7 @@ summary: Here are some of my friends.
 > it’s coming back? Who knows!).
 >
 > Anyway, here are some friends I think are neat.
-{:role="complementary" .bq-safe .iso7010 .e032}
-
-----
+{:tag="aside" .bq-safe .iso7010 .e032}
 
 - [Amanda](//notawful.org)
 - [Arshia Mufti](//arshia.substack.com)

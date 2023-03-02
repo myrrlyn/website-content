@@ -6,7 +6,6 @@ title: Calm IO
 [![Documentation](https://docs.rs/calm_io/badge.svg "Documentation Display"){:.unset}](https://docs.rs/calm_io "Documentation Link")
 [![License](https://img.shields.io/crates/l/calm_io.svg "License Display"){:.unset}](https://github.com/myrrlyn/calm_io/blob/master/LICENSE.txt "License")
 [![Crate Downloads](https://img.shields.io/crates/dv/calm_io.svg "Download Counter"){:.unset}](https://crates.io/crates/calm_io "Crate Link")
-[![Crate Size](https://tokei.rs/b1/github/myrrlyn/calm_io?category=code "Repository Size"){:.unset}](https://github.com/myrrlyn/calm_io "Source Code")
 
 - [Source Code][source]
 
@@ -24,7 +23,7 @@ prevents exiting due to broken pipe from reporting failure in the exit code.
 > Caveat: I have no idea what the Windows shell environment is like, so read all
 > of the below with an implicit “on Unix-y systems” disclaimer, which really
 > means “I tested it on Linux and macOS”.
-{:role="complementary" .bq-warn .iso7010 .w001}
+{:tag="aside" .bq-warn .iso7010 .w001}
 
 Shell pipelines connect programs to each other for streaming, parallel, data
 operations. Unix shells translate command strings like `a | b | c` into parallel
@@ -70,7 +69,7 @@ to a program generally results in immediate teardown.
 > *Unless* you use `set -euo pipefail`, in which case a broken pipe will not
 > only poison the whole pipeline (`-o pipefail`), but it’ll also crash the
 > whole script (`-e`). Not great!
-{:role="complementary" .bq-warn .iso7010 .w002}
+{:tag="aside" .bq-warn .iso7010 .w002}
 
 The default Rust runtime masks `SIGPIPE`, so that its delivery has no effect.
 This means that Rust programs continue executing after `SIGPIPE` is delivered,
@@ -93,14 +92,14 @@ pipe instead of a terminal causes a panic.
 `calm_io` provides replacement macros for the standard printers. `stdout!` and
 `stdoutln!` write to standard output, and `stderr!` and `stderrln!` write to
 standard error. The only difference between them and the macros in the standard
-library is that they *return their `io::Result`, rather than unwrapping it. This
-means that callers are responsible for unwrapping or punting the `Result`. Using
-`stdoutln!("hello")?` will, on pipe closure, follow the idiomatic error punting
-pattern and, almost certainly, use the already-existing fallible codepath to
-gracefully unwind back up to `main` and quit.
+library is that they *return* their `io::Result`, rather than unwrapping it.
+This means that callers are responsible for unwrapping or punting the `Result`.
+Using `stdoutln!("hello")?` will, on pipe closure, follow the idiomatic error
+punting pattern and, almost certainly, use the already-existing fallible
+codepath to gracefully unwind back up to `main` and quit.
 
 However, returning any `Err` from `fn main() -> Result` causes a non-zero exit
-code. And if you are quitting because your consumer went away, through no fault
+code. And if you are quitting because your neighbor went away, through no fault
 of your own, *you* should not signal failure.
 
 As such, `calm_io` also provides an attribute macro you can place on `fn main`.
@@ -162,7 +161,7 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace.
 > Incidentally, not only is my implementation of `yes` better for the
 > environment, it’s also *faster* than GNU `yes` (on my machine). There’s a very
 > real danger that rewriting programs in Rust makes them better in every regard.
-{:role="complementary" .bq-warn .iso7010 .w028}
+{:tag="aside" .bq-warn .iso7010 .w028}
 
 [complaining]: https://twitter.com/myrrlyn/status/1170035475593064448
 [source]:      https://github.com/myrrlyn/calm_io "Source Code"

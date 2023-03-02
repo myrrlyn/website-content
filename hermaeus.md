@@ -1,6 +1,6 @@
 ---
 title: Hermaeus
-tab_title: ~myrrlyn/hermaeus
+tab_title: Hermaeus – myrrlyn
 date: 2016-10-12T10:55:07-0400
 summary: An explanation of my Hermaeus project.
 ---
@@ -12,7 +12,7 @@ summary: An explanation of my Hermaeus project.
 - [Documentation][doc]
 
 > I have not touched this since 2016.
-{:role="complementary" .bq-info .iso7010 .m006}
+{:tag="aside" .bq-info .iso7010 .m006}
 
 ## Overview
 

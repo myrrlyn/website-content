@@ -4,7 +4,7 @@ title: Cosmonaut
 
 > I stopped work on Cosmonaut in 2018 July when I switched over to [`bitvec`],
 > and have not been able to meaningfully return since.
-{:role="complementary" .bq-warn}
+{:tag="aside" .bq-warn}
 
 Cosmonaut ~~is~~ <ins>was</ins> a mixed work and personal project I’d been
 working in my spare time since late 2017. It is a Rust reimplementation of the
@@ -68,6 +68,6 @@ inherent methods as I so chose and the root module would hold only the type
 itself.
 
 [1]: /blog/type-theory/type-alchemy
-[`bitvec`]: /crates/bitvec
+[`bitvec`]: ./bitvec
 [cosmos]: http://cosmosrb.com
 [nom]: http://rust.unhandledexpression.com/nom/

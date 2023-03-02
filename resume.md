@@ -93,7 +93,7 @@ method-called directly.
 > I am being more cautious about concealing details on this page than I strictly
 > need to. I am able and willing to talk about the nature of my work in more
 > depth during conversation.
-{:role="complementary" .bq-safe .iso7010 .e023}
+{:tag="aside" .bq-safe .iso7010 .e023}
 
 At Fastly, I worked on Fastly’s internal extensions to the H2O web server. These
 extensions are corporate secrets, but involved analysis and management of
