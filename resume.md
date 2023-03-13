@@ -2,6 +2,7 @@
 title: Résumé – Alexander Payne
 summary: My résumé
 tab_title: "~myrrlyn/résumé"
+tab_suffix: ""
 ---
 
 I am a software engineer with experience in low-level firmware and application

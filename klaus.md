@@ -18,7 +18,8 @@ meta:
 
 ## Introductory Letter
 
-![Klaus in uniform][formal]{:#formal .img .portrait}
+![Klaus in uniform][formal]{:#formal}
+{:.portrait}
 
 <p id="date"></p>
 
@@ -54,7 +55,7 @@ so that you may be assured of the quality of experience awaiting you.
 
 **Sincerely,**
 
-> ![Klaus’s signature][sig]{:#signature}
+> ![Klaus’s signature][sig]{:#signature .light-only}
 >
 > **Nicholas (Klaus) Frederick Payne**
 
@@ -62,40 +63,27 @@ so that you may be assured of the quality of experience awaiting you.
 
 ## Physical Information
 
-![Klaus doing a ridiculous pose][casual]{:#casual .img .portrait}
+![Klaus doing a ridiculous pose][casual]{:#casual}
+{:.portrait}
 
-<ul>
-<li>Height: 6’1” (185cm)</li>
-<li>Weight: 183±3 lb (83±1.3 kg)</li>
-<li>BMI: \(24.1 \frac{lb}{ft^{2}}\) (\(11.7 \frac{g}{cm^{2}}\))</li>
-<li>Hair color: Natural blond</li>
-<li>Eye color: Cornflower, nay, <em>rabbit hole</em> blue ¹</li>
-<li>Adequacy: <strong>TBD</strong></li>
-<li>PRT Score: 100 <small>(that’s a lot)</small></li>
-<li>Muscle tone: Present</li>
-<li>Body type: Adonis-esque, “soft” ²</li>
-</ul>
+- Height: 6’1” (185cm)
+- Weight: 183±3 lb (83±1.3 kg)
+- BMI: \(24.1 \frac{lb}{ft^{2}}\) (\(11.7 \frac{g}{cm^{2}}\))
+- Hair color: Natural blond
+- Eye color: Cornflower, nay, *rabbit hole* blue ¹
+- Adequacy: **TBD**
+- PRT Score: 100 `(that’s a lot)`{:tag="small"}
+- Muscle tone: Present
+- Body type: Adonis-esque, “soft” ²
 
-<small>
-<ol>
-
-<li>
-a piercing shade of blue characterized by its similarity to a rabbit hole – once
-you fall in, there’s no going back
-</li>
-
-<li>
-ref. Samuel Haber
-</li>
-
-</ol>
-</small>
+> 1. a piercing shade of blue characterized by its similarity to a rabbit hole –
+>    once you fall in, there’s no going back
+> 1. ref. Samuel Haber
+{:tag="small"}
 
 ## Education
 
-### Bachelor of Science │ 2018 │ United States Naval Academy
-
-{:.small-caps .no-toc}
+### Bachelor of Science │ 2018 │ United States Naval Academy {:.small-caps .no-toc}
 
 - Major : Mechanical Engineering
 - GPA: 3.41 / 4.00
@@ -107,9 +95,7 @@ ref. Samuel Haber
     examining re-radiation of heat from high energy laser impacts on carbon
     fiber composites
 
-### High School Diploma │ 2014 June 3 │ Culver Military Academy
-
-{:.small-caps .no-toc}
+### High School Diploma │ 2014 June 3 │ Culver Military Academy {:.small-caps .no-toc}
 
 - Major: N/A
 - Related Coursework:
@@ -168,18 +154,19 @@ Currently selling myself. Customers include:
 - Woodworking – grew up in a cabinet maker’s shop and am known to procure
   trinkets or gifts. Examples are shown below.
 
-> ![](/static/images/klaus/lamp.png){:.flex-1}
+> ![][lamp]
+> {:.flex-1}
 >
-> ![](/static/images/klaus/clock.jpg){:.flex-1}
+> ![][clock]
+> {:.flex-1}
 >
-> ![](/static/images/klaus/logos.jpg){:.flex-2}
+> ![][logos]
+> {:.flex-2}
 {:tag="div" #portfolio .img-flex}
 
 ## Experience
 
-### Midshipman │ United States Naval Academy │ 2014 June 1 – 2018 May 26
-
-{:.small-caps .no-toc}
+### Midshipman │ United States Naval Academy │ 2014 June 1 – 2018 May 26 {:.small-caps .no-toc}
 
 - I drive large boats
 - I row smaller boats
@@ -187,12 +174,13 @@ Currently selling myself. Customers include:
 - I repeatedly pick up heavy things and then set them back down
 - I do a lot of laundry. These dress whites don’t press themselves
 
-### Farmhand │ local │ 2012 – 2013, summers
-
-{:.small-caps .no-toc}
+### Farmhand │ local │ 2012 – 2013, summers {:.small-caps .no-toc}
 
 A degree of experience which is adequate, but not trashy
 
-[casual]: /static/images/klaus/casual.jpg
-[formal]: /static/images/klaus/formal.jpg
-[sig]: /static/images/klaus/signature.png
+[casual]: /static/images/klaus/casual.jpg "Klaus stretching in OCU print"
+[clock]: /static/images/klaus/clock.jpg "A clock of the USNA crest"
+[formal]: /static/images/klaus/formal.jpg "Klaus in a formal portrait"
+[lamp]: /static/images/klaus/lamp.png "A lamp with hammerhead sharks cut out"
+[logos]: /static/images/klaus/logos.jpg "Jaegermeister and Supernatural logos"
+[sig]: /static/images/klaus/signature.png "Klaus' signature"

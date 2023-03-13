@@ -22,26 +22,26 @@ site, in order to provide quick visual testing of the overall theme.
 
 <!-- -->
 
-> This is a danger blockquote.
+> This is a danger sidebar.
 >
 > It requires two paragraphs in order for the image marker to not look terrible.
 {:tag="aside" .bq-harm .iso7010 .p010}
 
 <!-- -->
 
-> This is a warning blockquote, warning of big stamps on short messages.
+> This is a warning sidebar, warning of big stamps on short messages.
 {:tag="aside" .bq-warn .iso7010 .w027}
 
 <!-- -->
 
-> This is a safety blockquote.
+> This is a safety sidebar.
 >
 > It will contain reassuring or helpful information, in theory.
 {:tag="aside" .bq-safe .iso7010 .e003}
 
 <!-- -->
 
-> This is an informational blockquote.
+> This is an informational sidebar.
 >
 > It contains text that may be a fun parenthetical but does not otherwise carry
 > meaning.
@@ -70,7 +70,7 @@ where O: BitOrder, T: BitStore {
 }
 ```
 
-```plain
+```plaintext
 This block is ordinary text and
 should never be syntax highlit.
 
@@ -106,3 +106,50 @@ Here is a `long run of inline code` {:.other} just to see it in the AST.
    1. multiplying
       1. over
       1. and over
+
+## Tag Rewriting
+
+I postprocess my Markdown using IALs in order to use more tags than Markdown
+produces according to the spec, allowing me to have semantic HTML.
+
+These are some of the rewritten tags.
+
+----
+
+> This is a figure.
+>
+> And this is its caption, with a `citation`{:tag="cite"}.
+> {:tag="figcaption"}
+{:tag="figure"}
+
+----
+
+> These two paragraphs are inside a new section.
+>
+> I will probably not use it very often, since using `<section>`s properly
+> within an `<article>` (which the template wraps around these documents) would
+> require using very long `> blockquote` runs for most of the text.
+{:tag="section"}
+
+----
+
+Here’s a definition-list group. Lists don’t seem to support IAL attchments, so
+it is done here by using a long blockquote for the `<dl>` and alterating
+paragraphs between `<dt>` and `<dd>`.
+
+> Jargon
+> {:tag="dt"}
+> Its lay explanation
+> {:tag="dd"}
+>
+> Jargon 2
+> {:tag="dt"}
+> Explanation 2
+> {:tag="dd"}
+{:tag="dl"}
+
+----
+
+In addition to block quotes we can have `inline`{:tag="q"} quotes. Something in
+my pipeline is adding surrounding whitespace to the text element inside `<q>`,
+so I am not using it in my text.
