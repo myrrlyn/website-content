@@ -1,12 +1,12 @@
 ---
-title: Cosmonaut
+title: Cosmonaught
 ---
 
-> I stopped work on Cosmonaut in 2018 July when I switched over to [`bitvec`],
+> I stopped work on Cosmonaught in 2018 July when I switched over to [`bitvec`],
 > and have not been able to meaningfully return since.
 {:tag="aside" .bq-warn}
 
-Cosmonaut ~~is~~ <ins>was</ins> a mixed work and personal project I’d been
+Cosmonaught ~~is~~ <ins>was</ins> a mixed work and personal project I’d been
 working in my spare time since late 2017. It is a Rust reimplementation of the
 [Cosmos][cosmos] framework for embedded device networking that we use at work to
 manage some of our spacecraft.

@@ -7,9 +7,9 @@ summary: A list of various public works I’ve done since 2013.
 Here are some faded aspects of my hobby. Other than my F/LOSS work, these
 largely have not been touched since 2016.
 
-## Cosmonaut
+## Cosmonaught
 
-Cosmonaut was a long-term, extremely incomplete, personal project on which I
+Cosmonaught was a long-term, extremely incomplete, personal project on which I
 worked, inspired by things I encounter at my day job. It began as an educational
 project for me to learn how to write a parser, and then aimed to provide a
 complement to the [COSMOS](//cosmosrb.com) project by Ball Aerospace.
