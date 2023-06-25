@@ -1,10 +1,14 @@
 ---
 title: My Workbench
-summary:  A tour of what tools I use, inspired by <uses.tech>.
+summary: A tour of what tools I use, inspired by <uses.tech>.
 ---
 
 I think the [`uses.tech`] concept of sharing what tools and processes we use in
 ordinary life is cool, so here’s mine.
+
+There are a *lot* of links on this page. None of them are affiliate links; I do
+not have any kind of relationship with any companies discussed here other than
+having bought from them.
 
 ## Password Manager
 
@@ -14,24 +18,19 @@ convenient program to manage your passwords because your human brain is not
 sufficient for the task.
 
 I don’t care if you use the one I’m about to personally endorse, but you do need
-one. I personally use [Enpass], but I have used [1Password] in the past and it
-is also good. One of the reasons I switched is that Enpass has a single-purchase
-price, while 1Password is now subscription-only, and I personally prefer point
-rather than ongoing sales.
-
-Crucially, you must *not* use a password manager that does not grant you
-explicit and sole control of your password archive files. Services like LastPass
-that store your passwords on their servers get breached and cause *more* harm
-than not having used one in the first place.
+one. I personally use [1Password], but I have used [Enpass] and [BitWarden] in
+the past and they are also good. The major reason I’m on 1Password is that it
+has a family plan that I can use to (a) share credentials with other people on
+it and (b) use that as leverage to make my mom use it. Enpass is single-purchase
+and allows you to control your own synchronization, which are good features
+1Password doesn’t  have, and you can compare and contrast them to your heart’s
+content, as long as you pick one.
 
 ### Features
 
-I use Enpass on my laptop (macOS), my desktop (Windows), my server (Linux), and
-my phone (now iPhone, previously Android and Windows Phone). Enpass is the only
-product I’ve seen that has a native application for *all of them*.
-
-> 2021: 1Password now has a Linux desktop application in beta.
-{:.bq-info role="complementary"}
+All three are cross-platform, and I’ve been able to use them across the spectrum
+of my devices: Windows, macOS, and Linux (graphical), as well as iOS and Android
+phones.
 
 Both Enpass and 1Password provide the following features that make them worth
 using:
@@ -67,13 +66,19 @@ using:
   advances, you can hit paste and immediately proceed. It can also detect 2FA
   forms and fill them just like it can with a password, but this automatic
   one-two behavior is very nice.
-- synchronization: neither of these operates a synchronization service. Your
-  credentials are in an ordinary file on your computer or phone, and that file
-  is encrypted by a master password that you need to remember and also store in,
-  say, your safe or a bank deposit box. Enpass offers hooks to synchronize this
-  file through services like DropBox, Google Drive, Microsoft OneDrive, or
-  other. When you do so, it is just another opaque file. Those hosts can’t see
-  inside it.
+- synchronization: Enpass doesn’t operate a synchronization service; 1Password
+  syncs vaults through their website. They state that vault files are always
+  encrypted by both a password they give you AND a password you use that they
+  never see, so I trust them to transport my data. Your credentials are in an
+  ordinary file on your computer or phone, and that file is encrypted by a
+  master password that you need to remember and also store in, say, your safe or
+  a bank deposit box. Enpass offers hooks to synchronize this file through
+  services like DropBox, Google Drive, Microsoft OneDrive, or other. When you do
+  so, it is just another opaque file. Those hosts can’t see inside it.
+
+BitWarden allows you to run your own management server on a computer you own,
+and have no interaction with the developers besides installing updates. I tried
+this out, because I’m a huge dork. You shouldn’t bother with this.
 
 If you don’t have a password manager, I strongly recommend one. Mom, this means
 you.
@@ -83,8 +88,8 @@ On to the rest of the page.
 ## Computers
 
 My longest surviving computer is a 2014 MacBook Pro (13”). My mom got it for me
-when I switched majors and it’s been with me ever since. I mostly use it as a
-web browser and a thin terminal connected to a more capable Linux server.
+when I switched majors and it’s been with me ever since. It’s now a Plex server
+awaiting final retirement.
 
 > I’m fortunate and incredibly grateful to Apple’s engineers for creating a
 > mainboard that can survive accidentally connecting 24 volts DC to the USB
@@ -92,9 +97,9 @@ web browser and a thin terminal connected to a more capable Linux server.
 > of the computer.
 {:tag="aside" .bq-warn .iso7010 .w012}
 
-I built my first PC in 2013 (deceased 2017) and my second in 2015 (deceased
-2021). I intend to rebuild both of them once I have the spare time and money,
-and the GPU shortage subsides.
+I built my first PC in 2013 (deceased 2017) and my second in 2015 (limping along
+as of 2023). I intend to rebuild both of them once I have the spare time and
+money, and the GPU shortage subsides.
 
 They ran [Arch Linux] as the primary operating system; in 2019, I reverted back
 to Windows as the primary and ran the Arch system as a HyperV guest so that I
@@ -102,6 +107,9 @@ could resume doing Windows-only things like playing video games nicely.
 Maintaining an Arch desktop in working condition for six years was actually
 fairly easy, other than the initial learning wall and some sporadic hardware
 failures. I enjoyed it a lot.
+
+My primary computer is now a 2022 MacBook Pro M2. The processor is *insanely*
+good. I can compile Erlang or LLVM without turning on the fans.
 
 ## Phones
 
@@ -116,7 +124,7 @@ would fail to detect an internal battery when transitioning from a 70℉ buildin
 to a 10℉ Utah winter and simply shut down until it was plugged into a wall.
 
 I gave up and bought an iPhone X, which I used (and harshly) from late 2017 to
-mid 2020. It still works, but I got an iPhone 11 which I am using now.
+mid 2020. It still works, but I got an iPhone 11 Pro which I am using now.
 
 KDE Plasma offers integration with Android phones which I quite liked, but the
 macOS-to-iOS integration is also very good. Between the conjoined software and
@@ -126,48 +134,82 @@ significant cause.
 
 ## Keyboard
 
-I use [WASD] mechanical keyboards printed in the [Dvorak] layout. Now I’m
-insufferable in two dimensions.
+I use a [ZSA Moonlander] split keyboard, programmed to the [Dvorak] layout. I
+aspire to ensure that any computer I touch is absolutely unusable by anyone
+else, and incidentally sometimes unusable by me.
+
+I also have some [WASD] mechanical keyboards, also in Dvorak.
 
 ## Software
 
 I use [Mozilla Firefox] as my browser, [Microsoft Office] for what you’d expect,
-and [Visual Studio Code] as my general editor.
+and [Visual Studio Code] as my general editor. My shell is [zsh], my prompt is
+[Starship], and my terminals are [Alacritty] or [iTerm 2]. I use [SourceTree] as
+my graphical Git client.
 
 VSCode’s ability to split into a client/server connection and run on remote
 servers, inside local containers, or across hypervisors makes it an invaluable
-single-service environment for anything I’m doing. This ability is basically the
-primary reason I don’t feel an urgent need to repair my desktop, since while my
-laptop is still seven years old and not in shape to be doing thermally intensive
-work, it is perfectly able to be a thin client to a rented machine elsewhere.
+single-service environment for anything I’m doing. I make it a point to
+conscientiously object to ever learning Vim or Emacs.
+
+I serve media with [Plex] (happy to share with you if you’d like), and
+synchronize my files across devices with [SyncThing] (works on Linux, not very
+well on iOS) and [Dropbox] (natively works on iOS, ended their Linux support).
+
+I write fancy documents such as my résumé with [Typst].
 
 ### Fonts
 
-I am a huge fan of the [Cascadia Code] and [Roboto] fonts. I also use [Iosevka]
-as my primary monospace font.
+I typically use [Roboto] for my prose fonts. Assuming this page rendered
+correctly, that’s what you’re seeing right now! The section headings are in
+[Ferro Rosso]. I use [Cascadia Code] and [Iosevka] as my `monospace` fonts.
 
 ### Programming Languages
 
-I am most fluent in Rust, and use it in both my personal and professional life.
-I’ve been actively writing in it since 2016. I also am capable in Ruby, Python,
-C, C++, and JavaScript, though I generally don’t use them unless required.
+I am most fluent in [Rust], and use it in both my home and work life. I’ve been
+actively writing in it since 2016. I write C++ and C at work, and very rarely
+for … not *fun*, but personal use.
+
+This website uses [Elixir] as the rendering server, [Sass] for the styling, and
+[TypeScript] for client logic.
+
+I also speak Ruby and Python. I don’t use them very much.
 
 ### Web Presence
 
 I currently use [DNSimple] for my domain names and [fly.io] for my web-facing
-servers.
+servers. My email is managed by [Fastmail]. I’ve used [DigitalOcean] in the past
+for rented servers that I can actively drive; Fly only accepts static
+containers.
 
 [1Password]: https://1password.com/
+[Alacritty]: https://alacritty.org/
 [Arch Linux]: https://archlinux.org/
 [Cascadia Code]: https://github.com/Microsoft/Cascadia-Code
+[DigitalOcean]: https://digitalocean.com/
 [DNSimple]: https://dnsimple.com/
+[Dropbox]: https://dropbox.com/
 [Dvorak]: https://en.wikipedia.org/wiki/Dvorak_keyboard_layout
+[Elixir]: https://elixir-lang.org/
 [Enpass]: https://enpass.io
+[Fastmail]: https://fastmail.com
+[Ferro Rosso]: https://www.dafont.com/ferro-rosso.font
 [Iosevka]: https://typeof.net/Iosevka
 [Microsoft Office]: https://office.microsoft.com/
 [Mozilla Firefox]: https://firefox.com/
+[Plex]: https://plex.tv/
 [Roboto]: https://fonts.google.com/specimen/Roboto
+[Rust]: https://rust-lang.org/
+[Sass]: https://sass-lang.org/
+[SourceTree]: https://sourcetreeapp.com/
+[Starship]: https://starship.rs/
+[SyncThing]: https://syncthing.net/
+[TypeScript]: https://typescriptlang.org/
+[Typst]: https://typst.app/
 [Visual Studio Code]: https://code.visualstudio.com/
 [WASD]: https://www.wasdkeyboards.com/
+[ZSA Moonlander]: https://zsa.io/moonlander
 [fly.io]: https://fly.io/
+[iTerm 2]: https://iterm2.com/
+[zsh]: https://zsh.org/
 [`uses.tech`]: https://uses.tech/
