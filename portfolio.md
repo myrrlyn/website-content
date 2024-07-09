@@ -12,7 +12,9 @@ largely have not been touched since 2016.
 Cosmonaught was a long-term, extremely incomplete, personal project on which I
 worked, inspired by things I encounter at my day job. It began as an educational
 project for me to learn how to write a parser, and then aimed to provide a
-complement to the [COSMOS](//cosmosrb.com) project by Ball Aerospace.
+complement to the ~~[COSMOS](//cosmosrb.com)~~
+_[OpenC3](//openc3.com)_{:tag="ins"} project by ~~Ball Aerospace~~
+_themselves_{:tag="ins"} (congratulations on the spin-off!).
 
 It was able to parse COSMOS definition files and create a dictionary in Rust
 whose members can be used to serialize a record into the bitstream that the
@@ -26,8 +28,8 @@ that are a combination of:
 
 These constraints are impossible to cleanly service in standard Rust, and the
 other bit-vector libraries I encountered did not support such manipulation.
-*Furthermore*, because I work in esoteric hardware, the endianness of *bits in*
-*an element* matters to the network layer, so I need to bring both `bitvec` and
+_Furthermore_, because I work in esoteric hardware, the endianness of _bits in_
+_an element_ matters to the network layer, so I need to bring both `bitvec` and
 `endian_trait` into play in order to match the bitstream that actually transfers
 over the wire.
 
@@ -43,8 +45,8 @@ designed this website myself to understand design and UI concepts. I also
 improved my understanding of systems administration and networking by hosting it
 myself.
 
-The code governing this site is [available on GitHub][site], as are
-[the pages themselves][pages].
+The code governing this site is [available on GitHub][site], as are [the pages
+themselves][pages].
 
 ## Senior Design
 
@@ -81,7 +83,7 @@ licensing constraints. My design included features such as:
   - Finally, Kogge-Stone addition
 - RAM access (we also designed the RAM banks and controllers)
 - von Neumann architecture: I was able to load and execute basic MIPS object
-    code with my project, and support self-modifying program execution.
+  code with my project, and support self-modifying program execution.
 - Access to peripheral devices using drivers I wrote
 
 ## Hermaeus
@@ -110,13 +112,13 @@ current sheet is [here][tsl-gh-old]; it is several years old and showing it. I
 am rebuilding the sheet in my spare time, but unfortunately am not at liberty to
 publicize any part of the code yet.
 
-[crates]: ./crates
+[crates]: /crates
 [hm-gem]: https://rubygems.org/gems/hermaeus
 [hm-gh]: https://github.com/myrrlyn/hermaeus
-[hm-myrr]: https://myrrlyn.net/hermaeus
+[hm-myrr]: /hermaeus
 [pages]: https://github.com/myrrlyn/pages
 [site]: https://github.com/myrrlyn/home
 [srd]: https://github.com/myrrlyn/SeniorDesign
-[tsl]: https://reddit.com/r/teslore
+[tsl]: https://old.reddit.com/r/teslore
 [tsl-gh-old]: https://github.com/myrrlyn/teslore
 [yt]: https://www.youtube.com/watch?v=K3CKSovJbJQ

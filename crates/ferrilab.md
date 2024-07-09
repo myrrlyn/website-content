@@ -6,7 +6,7 @@ title: The Ferrilab Project
 >
 > [User Guide][guide]
 
-The *Ferrilab* project is a collection of my work that has spun out of
+The _Ferrilab_ project is a collection of my work that has spun out of
 developing my primary project, `bitvec`. At the moment it is composed of these
 crates:
 
@@ -24,14 +24,14 @@ Short for *fun*damental *ty*pes, this crate provides traits that unify the
 language primitives (integers, floating-point numbers, `bool`, `char`, and
 pointers) so that code can be generic over them.
 
-With the initial stabilization of Generic Associated Types in Rust 1.65, I
-was able to pull the trait-level pointer permission system I sketched in
-`bitvec` out into `funty` and create a `Pointer<T: ?Sized, P: Permisison>` type
-that generically unifies `*const T` and `*mut T` and correctly adheres to Rust’s
-and Miri’s rules about permission tracking, *and* `Pointer` even switches
-between storing a `*const T` and `*mut T` internally as appropriate, so that
-code analysis tools can understand what is going on without needing to
-understand the `Permission` trait.
+With the initial stabilization of Generic Associated Types in Rust 1.65, I was
+able to pull the trait-level pointer permission system I sketched in `bitvec`
+out into `funty` and create a `Pointer<T: ?Sized, P: Permisison>` type that
+generically unifies `*const T` and `*mut T` and correctly adheres to Rust’s and
+Miri’s rules about permission tracking, _and_ `Pointer` even switches between
+storing a `*const T` and `*mut T` internally as appropriate, so that code
+analysis tools can understand what is going on without needing to understand the
+`Permission` trait.
 
 The standard library APIs for the primitives, especially pointers, continues to
 evolve. `funty` tracks it as best I am able to do, and tries to in general
@@ -51,8 +51,8 @@ the corresponding atomic, maybe-atomic, or `Cell<>`, respectively.
 
 The `Isotope` type family uses platform support information to determine whether
 it forwards to an `Atomic` or to a `Cell`. You can use this to have a single
-unchanging name that changes behavior according to the target without needing
-to personally remember where your code can and can’t run.
+unchanging name that changes behavior according to the target without needing to
+personally remember where your code can and can’t run.
 
 ## `bitvec`
 
@@ -64,7 +64,7 @@ It works by encoding an intra-byte bit index into part of a slice pointer, so
 that memory can be described by `&/mut BitSlice` references rather than
 `Bits<'a>` struct handles. The creation of custom reference types allows the
 crate to implement the vast majority of Rust’s APIs, as everywhere that requires
-an actual *reference* rather than just a borrowing view can still receive
+an actual _reference_ rather than just a borrowing view can still receive
 `bitvec` types.
 
 [gh]: https://github.com/ferrilab/

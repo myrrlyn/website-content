@@ -15,16 +15,16 @@ listen to way, way too much girlpop.
 
 I work at the Sub-Zero Group as a senior embedded software engineer, where I
 develop the control and interface software for various kitchen appliances. I’m
-very excited to be returning to my embedded and human-tool roots!
+very excited to be returning to my embedded and human-tool roots! I am not
+currently looking for other opportunities.
 
 I’ve previously worked as a software engineer at Fastly on the H2O web server,
-at Amazon Web Services bringing Rust to embedded devices, and at Space
-Dynamics Laboratory building and operating research small-satellites. My
-[long-form résumé][resume] (PDF) is available if you’re interested in reading
-it.
+at Amazon Web Services bringing Rust to embedded devices, and at Space Dynamics
+Laboratory building and operating research small-satellites. My [long-form
+résumé][resume] (PDF) is available if you’re interested in reading it.
 
-I also volunteer with a local Scout troop, teaching aquatics and wilderness
-travel.
+I also volunteer with a local Scout troop, where I teach aquatics and wilderness
+first aid.
 
 ## Contact Info
 
@@ -48,9 +48,9 @@ somewhere I haven’t listed here, it’s still probably me!
 
 <!-- - [Public Key][pubkey] -->
 
-If you *do* have my phone number, you *should*, but by no means *must*, use
-[Signal] to text me. Again, it’s more a habit thing than anything else; normal
-texts are also fine.
+If you _do_ have my phone number, you _should_, but by no means _must_, use
+[Signal][signal] to text me. Again, it’s more a habit thing than anything else;
+normal texts are also fine.
 
 ## Social Policy
 
@@ -67,8 +67,8 @@ here are some explicit promises:
 
 - I will never ask for a non-public setting, nor will I approach to within my
   arms’ reach without invitation.
-- At your discretion, you may freely suggest a less than public setting, or
-  step closer.
+- At your discretion, you may freely suggest a less than public setting, or step
+  closer.
 - I will not initiate physical contact but I accept the usual American fare of
   handshakes and hugs.
 
@@ -76,7 +76,6 @@ here are some explicit promises:
 movements on Twitter. This offer absolutely stands when I am traveling as well
 as when I am home.
 
-[Signal]: https://signal.org/download/ "Download Signal"
 [bluesky]: https://bsky.app/profile/myrrlyn.net "My BlueSky profile"
 [cohost]: https://cohost.org/myrrlyn "My Cohost profile"
 [crates]: /crates "A summary of my Rust F/LOSS work"
@@ -89,5 +88,6 @@ as when I am home.
 [mastodon]: https://tacobelllabs.net/@myrrlyn "My primary Mastodon account"
 [reddit]: https://reddit.com/u/myrrlyn "My reddit account"
 [resume]: /resume
+[signal]: https://signal.org/download/ "Download Signal"
 [snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"
 [twitter]: https://twitter.com/myrrlyn "My Twitter account"

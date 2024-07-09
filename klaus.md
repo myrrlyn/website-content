@@ -3,7 +3,7 @@ title: Dance with Midshipman 2/C Klaus Payne
 tab_title: Dance with Klaus Payne!
 summary: A flyer advertising Klaus Payne’s social eligibility.
 meta:
-- robots: noindex
+  - robots: noindex
 ---
 
 > Note from Alex:
@@ -14,11 +14,13 @@ meta:
 > if anyone wanted to attend the Naval version of prom with him.
 >
 > Somehow, it worked.
+
 {:tag="aside"}
 
 ## Introductory Letter
 
 ![Klaus in uniform][formal]{:#formal}
+
 {:.portrait}
 
 <p id="date"></p>
@@ -40,7 +42,7 @@ eligible male midshipmen in the class of 2018. Each of these midshipmen presents
 an opportunity to attend the 2018 ring dance on May 20^th^, 2017. However, the
 fairly ubiquitous opportunity to attend Ring Dance is a completely different
 offer from the incredibly unique opportunity to attend Ring Dance with me. The
-opportunity to attend Ring Dance with me is a *sui generis* experience because
+opportunity to attend Ring Dance with me is a _sui generis_ experience because
 it is a distinctly more excellent happening, guaranteed to be a cut above
 attending Ring Dance with any of the multitudinous alternative options
 available.
@@ -59,18 +61,19 @@ so that you may be assured of the quality of experience awaiting you.
 >
 > **Nicholas (Klaus) Frederick Payne**
 
-----
+---
 
-## Physical Information
+Physical Information
 
 ![Klaus doing a ridiculous pose][casual]{:#casual}
+
 {:.portrait}
 
 - Height: 6’1” (185cm)
 - Weight: 183±3 lb (83±1.3 kg)
-- BMI: \(24.1 \frac{lb}{ft^{2}}\) (\(11.7 \frac{g}{cm^{2}}\))
+- BMI: (24.1 \\frac{lb}{ft^{2}}) ((11.7 \\frac{g}{cm^{2}}))
 - Hair color: Natural blond
-- Eye color: Cornflower, nay, *rabbit hole* blue ¹
+- Eye color: Cornflower, nay, _rabbit hole_ blue ¹
 - Adequacy: **TBD**
 - PRT Score: 100 `(that’s a lot)`{:tag="small"}
 - Muscle tone: Present
@@ -79,7 +82,8 @@ so that you may be assured of the quality of experience awaiting you.
 > 1. a piercing shade of blue characterized by its similarity to a rabbit hole –
 >    once you fall in, there’s no going back
 > 1. ref. Samuel Haber
-{:tag="small"}
+>
+> {:tag="small"}
 
 ## Education
 
@@ -89,8 +93,8 @@ so that you may be assured of the quality of experience awaiting you.
 - GPA: 3.41 / 4.00
 - Class Rank: 339 / 1,090
 - Related Coursework:
-  - Independent Research analyzing the interaction between high energy IR
-    lasers and suspended small scale water droplets
+  - Independent Research analyzing the interaction between high energy IR lasers
+    and suspended small scale water droplets
   - Internship at Naval Surface Warfare Center Dahlgren; Laser Lethality Lab –
     examining re-radiation of heat from high energy laser impacts on carbon
     fiber composites
@@ -154,19 +158,19 @@ Currently selling myself. Customers include:
 - Woodworking – grew up in a cabinet maker’s shop and am known to procure
   trinkets or gifts. Examples are shown below.
 
-> ![][lamp]
-> {:.flex-1}
+> ![][lamp] {:.flex-1}
 >
-> ![][clock]
-> {:.flex-1}
+> ![][clock] {:.flex-1}
 >
-> ![][logos]
-> {:.flex-2}
+> ![][logos] {:.flex-2}
+
 {:tag="div" #portfolio .img-flex}
 
 ## Experience
 
-### Midshipman │ United States Naval Academy │ 2014 June 1 – 2018 May 26 {:.small-caps .no-toc}
+### Midshipman │ United States Naval Academy │ 2014 June 1 – 2018 May 26
+
+{:.small-caps .no-toc}
 
 - I drive large boats
 - I row smaller boats

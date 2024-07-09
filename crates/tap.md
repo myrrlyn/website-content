@@ -2,12 +2,12 @@
 title: Suffix Tapping
 ---
 
-[![Crate](https://img.shields.io/crates/v/tap.svg "Crate version"){:.unset}](https://crates.io/crates/tap "Crate")
-[![Documentation](https://docs.rs/tap/badge.svg "Crate docs){:.unset}](https://docs.rs/tap/ "Documentation")
-[![License](https://img.shields.io/crates/l/tap.svg "Crate license"){:.unset}](https://github.com/myrrlyn/tap/blob/develop/LICENSE.txt "License")
-[![Downloads](https://img.shields.io/crates/dv/tap.svg "Crate downloads"){:.unset}](https://crates.io/crates/tap "Crate")
+[![Crate][crate-img] {:.unset}][crates-io]
+[![Documentation][docs-img]{:.unset}][docs]
+[![License][license-img]{:.unset}][license-file]
+[![Downloads][downloads-img]{:.unset}][crates-io]
 
-- [Source code](https://github.com/myrrlyn/tap)
+- [Source code][repo]
 
 This crate consists of a number of traits which serve to provide convenient
 value-threading expressions. Essentially, the methods allow use of unchainable
@@ -76,7 +76,7 @@ In addition to these taps, the crate also provides debug-only equivalents. Add
 the suffix `_dbg` to any tap call in order to only run the tap in debug builds,
 and remove it entirely from release.
 
-For convenience, the crate *also* provides traits that are aware of the `Option`
+For convenience, the crate _also_ provides traits that are aware of the `Option`
 and `Result` carrier types, and act on the interior values they contain. The
 `TapOption` trait provides `tap_some`, `tap_some_mut`, and `tap_none` that run
 only when the carrier is of the correct variant, and operate on the inner value
@@ -182,3 +182,13 @@ for calling single conversions generically.
 ### Generic Usage
 
 The trait bound `T: From<U>` allows calling `.conv::<T>()` on instances of `U`.
+
+[`From`]: https://doc.rust-lang.org/std/convert/trait.From.html
+[crate-img]: https://img.shields.io/crates/v/tap.svg "Crate version"
+[crates-io]: https://crates.io/crates/tap "Crate Download"
+[docs]: https://docs.rs/tap/ "Documentation"
+[docs-img]: https://docs.rs/tap/badge.svg "Crate docs"
+[downloads-img]: https://img.shields.io/crates/dv/tap.svg "Crate downloads"
+[license-file]: //github.com/myrrlyn/tap/blob/develop/LICENSE.txt "License"
+[license-img]: https://img.shields.io/crates/l/tap.svg "Crate license"
+[repo]: https://github.com/myrrlyn/tap

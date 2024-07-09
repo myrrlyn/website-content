@@ -12,7 +12,8 @@ summary: An explanation of my Hermaeus project.
 - [Documentation][doc]
 
 > I have not touched this since 2016.
-{:tag="aside" .bq-info .iso7010 .m006}
+
+{:tag="aside" .block-info .iso7010 .m006}
 
 ## Overview
 
@@ -46,8 +47,8 @@ moderator account, it will be able to read posts that have been removed but not
 destroyed.
 
 At present, the only storage backend is to save the file to disk. Certain meta
-attributes (original title, author, date of publishing, reddit ID) are stored
-in a header section, which may interfere with some Markdown processors.
+attributes (original title, author, date of publishing, reddit ID) are stored in
+a header section, which may interfere with some Markdown processors.
 
 ## Performance
 

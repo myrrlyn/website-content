@@ -9,7 +9,7 @@ Cities. I’ve always displayed a natural thirst for knowledge, especially about
 music, mathematics, and computing, and my parents encouraged the pursuit of
 education both in and out of the classroom. Living in the country provided
 opportunities to learn about carpentry (my dad was a hobbyist cabinetmaker, and
-we also had to do a ***lot*** of upkeep on the property) and the outdoors with
+we also had to do a **_lot_** of upkeep on the property) and the outdoors with
 the Boy Scouts.
 
 My family moved to Michigan in 2005. I completed my Eagle Scout Service Project
@@ -43,8 +43,8 @@ and New England, so the physical distance encourages my strong online social
 presence. I’m now living in Madison, Wisconsin with my fiancée and within
 driving range of some friends and family, which I appreciate a lot.
 
-I have volunteered as a leader and instructor with Scout troops in every area
-I have lived. Scouting has been a fundamental aspect of my life since I was six
+I have volunteered as a leader and instructor with Scout troops in every area I
+have lived. Scouting has been a fundamental aspect of my life since I was six
 years old and I am happy and grateful to be able to stay active in it as an
 adult.
 
@@ -72,7 +72,7 @@ have received violent domestic abuse and written about it publicly. You may read
 I have struggled with suicidal ideation since I was eight years old. I made
 several attempts in high school and college, all ultimately without effect. I am
 now recovered and largely beyond it, though lingering intrusive thoughts remain.
-In my experience, this is a *frighteningly* common phenomenon across American
+In my experience, this is a _frighteningly_ common phenomenon across American
 youth and early adults. You may write to me if you share it.
 
 [dv]: /blog/misc/dv

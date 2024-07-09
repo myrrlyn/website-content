@@ -4,8 +4,9 @@ title: Lilliputian Structures
 
 > Rust version: 1.20
 >
-> I have not come back to this project in a *very* long time.
-{:tag="aside" .bq-info}
+> I have not come back to this project in a _very_ long time.
+
+{:tag="aside" .block-warn}
 
 |          `endian_trait`           |       `endian_trait_derive`       |
 | :-------------------------------: | :-------------------------------: |
@@ -35,10 +36,10 @@ Rust does not yet have type-level integers, which means I have to define
 implementations of `Endian` on `[T: Endian; N]` for each value of `N` that I
 want to support.
 
-<aside markdown="block">
-The Rust stdlib only implements traits on arrays ≤ 32; I go 8× as far because I
-<del>care 8× as much</del> <ins>am 8× as bored</ins>.
-</aside>
+> The Rust stdlib only implements traits on arrays ≤ 32; I go 8× as far because
+> I ~~care 8× as much~~ _am 8× as bored_{:tag="ins"}.
+
+{:tag="aside" .block-info}
 
 The secondary crate, `endian_trait_derive`, provides a custom-derive procedural
 macro that will implement `Endian` on any struct or tuple whose fields are all
@@ -57,7 +58,7 @@ Internet RFCs defines the byte order for data traversing the network as
 big-endian also.
 
 So at my workplace, where transmitting data across radio networks is our whole
-*raison d’être*, we care about endian transformation at network boundaries. We
+_raison d’être_, we care about endian transformation at network boundaries. We
 also care about complex, structured, data, as that’s what we’re moving across
 the network.
 
@@ -106,13 +107,13 @@ On inbound, read from a byte array into the type, then call the appropriate
 
 Declare any standard struct, tuple struct, or zero sized type.
 
-<aside markdown="block">
-There’s no reason for ZSTs *not* to declare that they have this API; ZSTs can
-never exist as actual bytes, so any methods on them involving byte manipulation
-just don’t exist as machine code. You call them, the compiler pretends that
-meant anything, and you move on. Then if you ever change a type definition from
-ZST to real, or inverse, all the code still works.
-</aside>
+> There’s no reason for ZSTs _not_ to declare that they have this API; ZSTs can
+> never exist as actual bytes, so any methods on them involving byte
+> manipulation just don’t exist as machine code. You call them, the compiler
+> pretends that meant anything, and you move on. Then if you ever change a type
+> definition from ZST to real, or inverse, all the code still works.
+
+{:tag="aside" .block-info}
 
 ```rust
 struct Foo {

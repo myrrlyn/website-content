@@ -16,7 +16,7 @@ dynamically assembling a debug-print of aggregate types.
 
 This module provides transparent wrapper types that all implement `Debug` by
 forwarding to a different `core::fmt` trait, and a blanket extension trait that
-places methods to *create* those types on all types that implement the core
+places methods to _create_ those types on all types that implement the core
 formatters.
 
 ```rust

@@ -3,14 +3,14 @@ title: WebRing
 summary: Here are some of my friends.
 ---
 
-> Back when the internet was <del>good</del> <ins>younger</ins>, people with
-> similar sites [clustered together][0]. Between search engines and centralized
-> social media, this practice is pretty much obsolete (but with federation,
-> maybe
-> it’s coming back? Who knows!).
+> Back when the internet was ~~good~~ _younger_{:tag="ins"}, people with similar
+> sites [clustered together][0]. Between search engines and centralized social
+> media, this practice is pretty much obsolete (but with federation, maybe it’s
+> coming back? Who knows!).
 >
 > Anyway, here are some friends I think are neat.
-{:tag="aside" .bq-safe .iso7010 .e032}
+
+{:tag="aside" .block-safe .iso7010 .e032}
 
 - [Amanda](//notawful.org)
 - [Arshia Mufti](//arshia.substack.com)

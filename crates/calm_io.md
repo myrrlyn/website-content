@@ -2,10 +2,10 @@
 title: Calm IO
 ---
 
-[![Crate](https://img.shields.io/crates/v/calm_io.svg "Crate Version Display"){:.unset}](https://crates.io/crates/calm_io "Crate Link")
-[![Documentation](https://docs.rs/calm_io/badge.svg "Documentation Display"){:.unset}](https://docs.rs/calm_io "Documentation Link")
-[![License](https://img.shields.io/crates/l/calm_io.svg "License Display"){:.unset}](https://github.com/myrrlyn/calm_io/blob/master/LICENSE.txt "License")
-[![Crate Downloads](https://img.shields.io/crates/dv/calm_io.svg "Download Counter"){:.unset}](https://crates.io/crates/calm_io "Crate Link")
+[![Crate][crate-img]{:.unset}][crate]
+[![Documentation][docs-img]{:.unset}][docs]
+[![License][license-img]{:.unset}][license]
+[![Crate Downloads][downloads-img]{:.unset}][crate]
 
 - [Source Code][source]
 
@@ -23,7 +23,8 @@ prevents exiting due to broken pipe from reporting failure in the exit code.
 > Caveat: I have no idea what the Windows shell environment is like, so read all
 > of the below with an implicit “on Unix-y systems” disclaimer, which really
 > means “I tested it on Linux and macOS”.
-{:tag="aside" .bq-warn .iso7010 .w001}
+
+{:tag="aside" .block-warn .iso7010 .w001}
 
 Shell pipelines connect programs to each other for streaming, parallel, data
 operations. Unix shells translate command strings like `a | b | c` into parallel
@@ -35,7 +36,7 @@ output, the written data is held in an OS buffer, and made available when `b`
 reads from its standard input.
 
 When a program exits, the kernel closes all the file descriptors that the
-program had opened. Programs *should* do this themselves, but regardless, on
+program had opened. Programs _should_ do this themselves, but regardless, on
 process teardown all open file descriptors are reaped.
 
 Kernel pipes are not filesystem objects; they are in-memory buffers with two
@@ -63,13 +64,14 @@ to a program generally results in immediate teardown.
 
 > If you’re thinking “I’ve used `head` plenty of times and never seen my C
 > programs fail as a result”, that’s because getting killed by an unmasked
-> signal doesn’t allow the program an opportunity to report its death except
-> by status code, and only the last status code in a pipeline counts.
+> signal doesn’t allow the program an opportunity to report its death except by
+> status code, and only the last status code in a pipeline counts.
 >
-> *Unless* you use `set -euo pipefail`, in which case a broken pipe will not
-> only poison the whole pipeline (`-o pipefail`), but it’ll also crash the
-> whole script (`-e`). Not great!
-{:tag="aside" .bq-warn .iso7010 .w002}
+> _Unless_ you use `set -euo pipefail`, in which case a broken pipe will not
+> only poison the whole pipeline (`-o pipefail`), but it’ll also crash the whole
+> script (`-e`). Not great!
+
+{:tag="aside" .block-warn .iso7010 .w002}
 
 The default Rust runtime masks `SIGPIPE`, so that its delivery has no effect.
 This means that Rust programs continue executing after `SIGPIPE` is delivered,
@@ -79,10 +81,10 @@ Rust does not provide an equivalent to `getch()`. To read from standard input,
 you have to go through the `std::io::stdin()` interface, which is fallible, and
 helpfully gives you an `io::ErrorKind::BrokenPipe` error if your supplier died.
 
-However, Rust *does* have a convenient way to write to standard output and
+However, Rust _does_ have a convenient way to write to standard output and
 blithely ignore (in source code) any errors that `stdout` may have: `println!`.
 The `print!`, `println!`, `dbg!`, `eprint!`, and `eprintln!` macros all write to
-a standard file descriptor *and unwrap errors produced by doing so*.
+a standard file descriptor _and unwrap errors produced by doing so_.
 
 Which means that calling `println!` when your `stdout` has been turned into a
 pipe instead of a terminal causes a panic.
@@ -92,7 +94,7 @@ pipe instead of a terminal causes a panic.
 `calm_io` provides replacement macros for the standard printers. `stdout!` and
 `stdoutln!` write to standard output, and `stderr!` and `stderrln!` write to
 standard error. The only difference between them and the macros in the standard
-library is that they *return* their `io::Result`, rather than unwrapping it.
+library is that they _return_ their `io::Result`, rather than unwrapping it.
 This means that callers are responsible for unwrapping or punting the `Result`.
 Using `stdoutln!("hello")?` will, on pipe closure, follow the idiomatic error
 punting pattern and, almost certainly, use the already-existing fallible
@@ -100,7 +102,7 @@ codepath to gracefully unwind back up to `main` and quit.
 
 However, returning any `Err` from `fn main() -> Result` causes a non-zero exit
 code. And if you are quitting because your neighbor went away, through no fault
-of your own, *you* should not signal failure.
+of your own, _you_ should not signal failure.
 
 As such, `calm_io` also provides an attribute macro you can place on `fn main`.
 `#[pipefail]` may only be placed on `main` programs that return `io::Result` (in
@@ -159,12 +161,10 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace.
 ```
 
 > Incidentally, not only is my implementation of `yes` better for the
-> environment, it’s also *faster* than GNU `yes` (on my machine). There’s a very
+> environment, it’s also _faster_ than GNU `yes` (on my machine). There’s a very
 > real danger that rewriting programs in Rust makes them better in every regard.
-{:tag="aside" .bq-warn .iso7010 .w028}
 
-[complaining]: https://twitter.com/myrrlyn/status/1170035475593064448
-[source]:      https://github.com/myrrlyn/calm_io "Source Code"
+{:tag="aside" .block-warn .iso7010 .w028}
 
 <!-- Currently broken in Earmark
 [![Crate][crate_img]{:.unset.badge}][crate]
@@ -184,3 +184,13 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace.
 [loc]:         https://github.com/myrrlyn/calm_io "Repository"
 [loc_img]:     https://tokei.rs/b1/github/myrrlyn/calm_io?category=code "Repository Size"
 -->
+
+[complaining]: https://twitter.com/myrrlyn/status/1170035475593064448
+[crate]: https://crates.io/crates/calm_io "Crate Link"
+[crate-img]: //img.shields.io/crates/v/calm_io.svg "Crate Version Display"
+[docs]: https://docs.rs/calm_io "Documentation Link"
+[docs-img]: https://docs.rs/calm_io/badge.svg "Documentation Display"
+[downloads-img]: //img.shields.io/crates/dv/calm_io.svg "Download Counter"
+[license]: https://github.com/myrrlyn/calm_io/blob/master/LICENSE.txt "License"
+[license-img]: https://img.shields.io/crates/l/calm_io.svg "License Display"
+[source]: https://github.com/myrrlyn/calm_io "Source Code"

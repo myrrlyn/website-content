@@ -10,7 +10,7 @@ The documents are written in nearly GitHub Flavored Markdown. I additionally use
 three extensions to the format: YAML frontmatter, [Kramdown IAL], and embedded
 LaTeX. While my site servers may apply additional transforms to the Markdown
 text based on the YAML contents or my own goals, the source documents will
-always be *reasonably* presentable when given to a GFM-capable engine.
+always be _reasonably_ presentable when given to a GFM-capable engine.
 
 Some document classes may prefer not to include explicit title `h1` elements,
 and will instead rely on the template to render the `title` and `subtitle`
@@ -52,4 +52,4 @@ there is no Markdown element for it. The audio elements that my rendering engine
 produces can be relocated to `<div id="{intro,outro}"></div>` marker elements in
 the source text.
 
-[Kramdown IAL]: https://kramdown.gettalong.org/syntax.html#inline-attribute-lists "Kramdown inline attribute lists"
+[kramdown ial]: https://kramdown.gettalong.org/syntax.html#inline-attribute-lists "Kramdown inline attribute lists"

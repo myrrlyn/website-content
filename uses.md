@@ -6,7 +6,7 @@ summary: A tour of what tools I use, inspired by <uses.tech>.
 I think the [`uses.tech`] concept of sharing what tools and processes we use in
 ordinary life is cool, so here’s mine.
 
-There are a *lot* of links on this page. None of them are affiliate links; I do
+There are a _lot_ of links on this page. None of them are affiliate links; I do
 not have any kind of relationship with any companies discussed here other than
 having bought from them.
 
@@ -23,7 +23,7 @@ the past and they are also good. The major reason I’m on 1Password is that it
 has a family plan that I can use to (a) share credentials with other people on
 it and (b) use that as leverage to make my mom use it. Enpass is single-purchase
 and allows you to control your own synchronization, which are good features
-1Password doesn’t  have, and you can compare and contrast them to your heart’s
+1Password doesn’t have, and you can compare and contrast them to your heart’s
 content, as long as you pick one.
 
 ### Features
@@ -58,7 +58,7 @@ using:
   register keyboards with the operating system. When you navigate to a
   credential form in an application or a browser, you can select your password
   manager’s keyboard and it will determine which credentials you need and then
-  write them into the form for you. This is *incredibly* convenient and I really
+  write them into the form for you. This is _incredibly_ convenient and I really
   love it.
 - 2FA/TOTP storage: you can store your 2FA seeds in the vault rather than in a
   completely separate app. When Enpass submits a password, it also automatically
@@ -95,7 +95,8 @@ awaiting final retirement.
 > mainboard that can survive accidentally connecting 24 volts DC to the USB
 > socket and short-circuiting it and only destroying that USB port, not the rest
 > of the computer.
-{:tag="aside" .bq-warn .iso7010 .w012}
+
+{:tag="aside" .block-warn .iso7010 .w012}
 
 I built my first PC in 2013 (deceased 2017) and my second in 2015 (limping along
 as of 2023). I intend to rebuild both of them once I have the spare time and
@@ -108,7 +109,7 @@ Maintaining an Arch desktop in working condition for six years was actually
 fairly easy, other than the initial learning wall and some sporadic hardware
 failures. I enjoyed it a lot.
 
-My primary computer is now a 2022 MacBook Pro M2. The processor is *insanely*
+My primary computer is now a 2022 MacBook Pro M2. The processor is _insanely_
 good. I can compile Erlang or LLVM without turning on the fans.
 
 ## Phones
@@ -168,7 +169,7 @@ correctly, that’s what you’re seeing right now! The section headings are in
 
 I am most fluent in [Rust], and use it in both my home and work life. I’ve been
 actively writing in it since 2016. I write C++ and C at work, and very rarely
-for … not *fun*, but personal use.
+for … not _fun_, but personal use.
 
 This website uses [Elixir] as the rendering server, [Sass] for the styling, and
 [TypeScript] for client logic.
@@ -185,6 +186,7 @@ containers.
 [1Password]: https://1password.com/
 [Alacritty]: https://alacritty.org/
 [Arch Linux]: https://archlinux.org/
+[BitWarden]: https://bitwarden.com/
 [Cascadia Code]: https://github.com/Microsoft/Cascadia-Code
 [DigitalOcean]: https://digitalocean.com/
 [DNSimple]: https://dnsimple.com/
