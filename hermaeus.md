@@ -3,13 +3,19 @@ title: Hermaeus
 tab_title: Hermaeus – myrrlyn
 date: 2016-10-12T10:55:07-0400
 summary: An explanation of my Hermaeus project.
+badges:
+  - badge: gem/v/hermaeus
+    url: https://rubygems.org/gems/hermaeus
+    logo: ruby
+  - badge: badge/Hermaeus-Documentation-red
+    url: https://www.rubydoc.info/gems/hermaeus
+  - badge: gem/dtv/hermaeus
+  - badge: github/license/myrrlyn/hermaeus
+    url: https://github.com/myrrlyn/hermaeus/blob/master/LICENSE.txt
+  - badge: github/stars/myrrlyn/hermaeus
+    url: https://github.com/myrrlyn/hermaeus
+    logo: github
 ---
-
-[![Gem Version](https://badge.fury.io/rb/hermaeus.svg){:.unset}](https://badge.fury.io/rb/hermaeus)
-
-- [Source Code][gh]
-- [Gem Download][gem]
-- [Documentation][doc]
 
 > I have not touched this since 2016.
 
@@ -106,7 +112,4 @@ I do plan on making a website to allow access into the archive Hermaeus creates,
 but I would be perfectly happy to yield that project to anyone who can do better
 than this site.
 
-[doc]: http://www.rubydoc.info/gems/hermaeus
-[gem]: https://rubygems.org/gems/hermaeus
-[gh]: https://github.com/myrrlyn/hermaeus
-[tsl]: https://reddit.com/r/teslore
+[tsl]: https://old.reddit.com/r/teslore

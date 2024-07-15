@@ -2,6 +2,19 @@
 title: wyz
 page_title: Prototyping
 toc: false
+badges:
+  - badge: crates/v/wyz
+    url: https://crates.io/crates/wyz
+    logo: rust
+  - badge: docsrs/wyz
+    url: https://docs.rs/wyz/latest/wyz
+    logo: docsdotrs
+  - badge: crates/dv/wyz
+  - badge: crates/l/wyz
+    url: https://github.com/myrrlyn/wyz/blob/main/LICENSE.txt
+  - badge: github/stars/myrrlyn/wyz
+    url: https://github.com/myrrlyn/wyz
+    logo: github
 ---
 
 This is just my prototyping library. It serves as an incubator for modules I

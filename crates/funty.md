@@ -1,5 +1,18 @@
 ---
 title: Fundamental Types
+badges:
+  - badge: crates/v/funty
+    url: https://crates.io/crates/funty
+    logo: rust
+  - badge: docsrs/funty
+    url: https://docs.rs/funty/latest/funty
+    logo: docsdotrs
+  - badge: crates/dv/funty
+  - badge: crates/l/funty
+    url: https://github.com/ferrilab/ferrilab/blob/main/funty/LICENSE.txt
+  - badge: github/stars/ferrilab/ferrilab
+    url: https://github.com/ferrilab/ferrilab/blob/main/funty
+    logo: github
 ---
 
 This crate provides traits that unify the Rust primitives so that they can be

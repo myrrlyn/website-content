@@ -1,5 +1,18 @@
 ---
 title: Lilliputian Structures
+badges:
+  - badge: crates/v/endian_trait
+    url: https://crates.io/crates/endian_trait
+    logo: rust
+  - badge: docsrs/endian_trait
+    url: https://docs.rs/endian_trait/latest/endian_trait
+    logo: docsdotrs
+  - badge: crates/dv/endian_trait
+  - badge: crates/l/endian_trait
+    url: https://github.com/myrrlyn/endian_trait/blob/main/LICENSE.txt
+  - badge: github/stars/myrrlyn/endian_trait
+    url: https://github.com/myrrlyn/endian_trait
+    logo: github
 ---
 
 > Rust version: 1.20
@@ -7,13 +20,6 @@ title: Lilliputian Structures
 > I have not come back to this project in a _very_ long time.
 
 {:tag="aside" .block-warn}
-
-|          `endian_trait`           |       `endian_trait_derive`       |
-| :-------------------------------: | :-------------------------------: |
-| [![Crate Version][1]{:.unset}][1] | [![Crate Version][2]{:.unset}][2] |
-|         [Source Code][3]          |         [Source Code][4]          |
-|          [Crate Page][5]          |          [Crate Page][6]          |
-|        [Documentation][7]         |        [Documentation][8]         |
 
 ## Overview
 
@@ -170,12 +176,3 @@ struct to `[u8; size_of<Struct>]` and writing it directly; you still have to use
 a real conversion function to write into and read out of a buffer. You could do
 this with a `#[repr(C)]` or `#[repr(packed)]` annotation, but those tend to make
 working with real instances of the struct less pleasant.
-
-[1]: https://img.shields.io/crates/v/endian_trait.svg
-[2]: https://img.shields.io/crates/v/endian_trait_derive.svg
-[3]: https://gitlab.com/myrrlyn/endian_trait
-[4]: https://gitlab.com/myrrlyn/endian_trait
-[5]: https://crates.io/crates/endian_trait
-[6]: https://crates.io/crates/endian_trait_derive
-[7]: https://docs.rs/endian_trait
-[8]: https://docs.rs/endian_trait_derive

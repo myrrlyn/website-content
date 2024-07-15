@@ -1,18 +1,20 @@
 ---
 title: The Ferrilab Project
+badges:
+  - badge: github/stars/ferrilab/ferrilab
+    url: https://github.com/ferrilab/ferrilab
+    logo: github
+  - badge: badge/Ferrilab-User_Guide-orange
+    url: https://ferrilab.github.io/ferrilab
 ---
-
-> [GitHub][gh]
->
-> [User Guide][guide]
 
 The _Ferrilab_ project is a collection of my work that has spun out of
 developing my primary project, `bitvec`. At the moment it is composed of these
 crates:
 
 1. [`bitvec`]
-1. [`funty`]
-1. [`radium`]
+2. [`funty`]
+3. [`radium`]
 
 `funty` and `radium` were extracted from `bitvec` and are usable on their own.
 
@@ -67,8 +69,6 @@ crate to implement the vast majority of Rust’s APIs, as everywhere that requir
 an actual _reference_ rather than just a borrowing view can still receive
 `bitvec` types.
 
-[gh]: https://github.com/ferrilab/
-[guide]: https://ferrilab.github.io/ferrilab/
 [nika]: https://github.com/mystor
 [`bitvec`]: ./bitvec
 [`funty`]: ./funty

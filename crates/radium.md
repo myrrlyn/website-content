@@ -1,5 +1,18 @@
 ---
 title: General Atomics
+badges:
+  - badge: crates/v/radium
+    url: https://crates.io/crates/radium
+    logo: rust
+  - badge: docsrs/radium
+    url: https://docs.rs/radium/latest/radium
+    logo: docsdotrs
+  - badge: crates/dv/radium
+  - badge: crates/l/radium
+    url: https://github.com/ferrilab/ferrilab/blob/main/radium/LICENSE.txt
+  - badge: github/stars/ferrilab/ferrilab
+    url: https://github.com/ferrilab/ferrilab/blob/main/radium
+    logo: github
 ---
 
 [Nika Layzell][kneecaw] and I wrote a crate that provides a trait, `Radium`,

@@ -1,13 +1,19 @@
 ---
 title: Suffix Tapping
+badges:
+  - badge: crates/v/tap
+    url: https://crates.io/crates/tap
+    logo: rust
+  - badge: docsrs/tap
+    url: https://docs.rs/tap/latest/tap
+    logo: docsdotrs
+  - badge: crates/dv/tap
+  - badge: crates/l/tap
+    url: https://github.com/myrrlyn/tap/blob/main/LICENSE.txt
+  - badge: github/stars/myrrlyn/tap
+    url: https://github.com/myrrlyn/tap
+    logo: github
 ---
-
-[![Crate][crate-img] {:.unset}][crates-io]
-[![Documentation][docs-img]{:.unset}][docs]
-[![License][license-img]{:.unset}][license-file]
-[![Downloads][downloads-img]{:.unset}][crates-io]
-
-- [Source code][repo]
 
 This crate consists of a number of traits which serve to provide convenient
 value-threading expressions. Essentially, the methods allow use of unchainable

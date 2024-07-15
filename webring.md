@@ -12,17 +12,16 @@ summary: Here are some of my friends.
 
 {:tag="aside" .block-safe .iso7010 .e032}
 
-- [Amanda](//notawful.org)
-- [Arshia Mufti](//arshia.substack.com)
-- [Cassie Jones](//witchoflight.com)
-- [David Barsky](//davidbarsky.com)
-- [Eliza Weisman](//elizas.website)
-- [J Haigh](//optimistictypes.com)
-- [Kylie Stewart](//kylieis.online)
-- [Harrison Goscenski](//hgoscenski.com)
-- [Manish Goregaokar](//manishearth.github.io)
-- [Michael Gattozzi](//mgattozzi.com)
-- [Victoria Mitchell](//quietmisdreavus.net)
-- [wiggles](//16kpbs.net)
+- [Amanda](https://notawful.org)
+- [Arshia Mufti](https://arshia.substack.com)
+- [Cassie Jones](https://witchoflight.com)
+- [David Barsky](https://davidbarsky.com)
+- [Eliza Weisman](https://elizas.website)
+- [J Haigh](https://optimistictypes.com)
+- [Kylie Stewart](https://kylieis.online)
+- [Harrison Goscenski](https://hgoscenski.com)
+- [Manish Goregaokar](https://manishearth.github.io)
+- [Michael Gattozzi](https://ductile.systems)
+- [Victoria Mitchell](https://quietmisdreavus.net)
 
 [0]: https://en.wikipedia.org/wiki/Webring

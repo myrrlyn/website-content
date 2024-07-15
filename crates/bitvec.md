@@ -1,13 +1,19 @@
 ---
 title: bitvec
+badges:
+  - badge: crates/v/bitvec
+    url: https://crates.io/crates/bitvec
+    logo: rust
+  - badge: docsrs/bitvec
+    url: https://docs.rs/bitvec/latest/bitvec
+    logo: docsdotrs
+  - badge: crates/dv/bitvec
+  - badge: crates/l/bitvec
+    url: https://github.com/ferrilab/ferrilab/blob/main/bitvec/LICENSE.txt
+  - badge: github/stars/ferrilab/ferrilab
+    url: https://github.com/ferrilab/ferrilab/blob/main/bitvec
+    logo: github
 ---
-
-[![Crate][crate-img]{:.unset}][crate]
-[![Documentation][docs-img]{:.unset}][docs]
-[![License][license-img]{:.unset}][license]
-[![Downloads][downloads-img]{:.unset}][crate]
-
-- [Source code][crate-src]
 
 `bitvec` is a Rust implementation of the bit-packing data structure available in
 C++ as `std::vector<bool>` and `std::bitset`. In features, API completeness, and
@@ -237,20 +243,12 @@ As the standard library grows and evolves, `bitvec` will mirror it.
 
 [Nika Layzell]: https://github.com/mystor
 [cosmos]: https://openc3.com
-[crate]: https://crates.io/crates/bitvec "Crate"
-[crate-img]: https://img.shields.io/crates/v/bitvec.svg "Crate version"
-[crate-src]: https://github.com/ferrilab/ferrilab/blob/main/bitvec
-[docs]: https://docs.rs/bitvec/ "Documentation"
-[docs-img]: https://docs.rs/bitvec/badge.svg "Crate docs"
-[downloads-img]: https://img.shields.io/crates/dv/bitvec.svg "Crate downloads"
-[license]: https://github.com/ferrilab/ferrilab/blob/main/bitvec/LICENSE.txt
-[license-img]: //img.shields.io/crates/l/bitvec.svg "Crate license"
 [p_sfrp]: https://doc.rust-lang.org/core/ptr/fn.slice_from_raw_parts.html
 [sp_as_ptr]: https://doc.rust-lang.org/std/primitive.ptr.html#method.as_ptr
 [sp_len]: https://doc.rust-lang.org/std/primitive.ptr.html#method.len
-[`bitarray`]: https://docs.rs/bitvec/latest/bitvec/array/struct.BitArray.html
-[`bitorder`]: https://docs.rs/bitvec/latest/bitvec/order/trait.BitOrder.html
-[`bitslice`]: https://docs.rs/bitvec/latest/bitvec/slice/struct.BitSlice.html
-[`bitstore`]: https://docs.rs/bitvec/latest/bitvec/store/trait.BitStore.html
-[`lsb0`]: https://docs.rs/bitvec/latest/bitvec/order/struct.Lsb0.html
-[`msb0`]: https://docs.rs/bitvec/latest/bitvec/order/struct.Msb0.html
+[`BitArray`]: https://docs.rs/bitvec/latest/bitvec/array/struct.BitArray.html
+[`BitOrder`]: https://docs.rs/bitvec/latest/bitvec/order/trait.BitOrder.html
+[`BitSlice`]: https://docs.rs/bitvec/latest/bitvec/slice/struct.BitSlice.html
+[`BitStore`]: https://docs.rs/bitvec/latest/bitvec/store/trait.BitStore.html
+[`Lsb0`]: https://docs.rs/bitvec/latest/bitvec/order/struct.Lsb0.html
+[`Msb0`]: https://docs.rs/bitvec/latest/bitvec/order/struct.Msb0.html

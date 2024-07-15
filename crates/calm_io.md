@@ -1,13 +1,19 @@
 ---
 title: Calm IO
+badges:
+  - badge: crates/v/calm_io
+    url: https://crates.io/crates/calm_io
+    logo: rust
+  - badge: docsrs/calm_io
+    url: https://docs.rs/calm_io/latest/calm_io
+    logo: docsdotrs
+  - badge: crates/dv/calm_io
+  - badge: crates/l/calm_io
+    url: https://github.com/myrrlyn/calm_io/blob/main/LICENSE.txt
+  - badge: github/stars/myrrlyn/calm_io
+    url: https://github.com/myrrlyn/calm_io
+    logo: github
 ---
-
-[![Crate][crate-img]{:.unset}][crate]
-[![Documentation][docs-img]{:.unset}][docs]
-[![License][license-img]{:.unset}][license]
-[![Crate Downloads][downloads-img]{:.unset}][crate]
-
-- [Source Code][source]
 
 Calm I/O is a project I started after observing that some Rust programs, when
 piped into `head`, would show a visible panic report. After [complaining] on
