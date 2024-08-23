@@ -1,5 +1,5 @@
 ---
-title: The Ferrilab Project
+title: Ferrilab Design, LLC
 badges:
   - badge: github/stars/ferrilab/ferrilab
     url: https://github.com/ferrilab/ferrilab
@@ -7,6 +7,29 @@ badges:
   - badge: badge/Ferrilab-User_Guide-orange
     url: https://ferrilab.github.io/ferrilab
 ---
+
+## Doing Business
+
+The Wisconsin entity _Ferrilab Design, LLC_ serves as my professional agent for
+work on this software. It:
+
+- owns the publicly-available software that I produce
+- provides my professional service while producing this software
+- receives any financial awards granted for this software
+
+Or, more concisely, _Ferrilab Design, LLC_ exists to separate my hobby work from
+my regular employment, and to keep both of them separate from my personal life.
+The _Ferrilab_ project doesn’t make me any money (though if it helps you do so,
+please consider that I create and distribute it freely, and can only allocate
+effort for doing so as either I, or you, indicate a desire for me to do so), and
+this LLC is solely for organizational purposes.
+
+I have full-time employment with which I am quite satisfied. I am able to
+perform compensated, independent, work outside that, but not to the detraction
+of my day job. If you are interested in working with me on that limited basis,
+you may write to [`ferrilab@myrrlyn.net`](mailto:ferrilab@myrrlyn.net).
+
+## Public Works
 
 The _Ferrilab_ project is a collection of my work that has spun out of
 developing my primary project, `bitvec`. At the moment it is composed of these
@@ -20,7 +43,7 @@ crates:
 
 Each of these crates are described in more detail on their own pages.
 
-## `funty`
+### `funty`
 
 Short for *fun*damental *ty*pes, this crate provides traits that unify the
 language primitives (integers, floating-point numbers, `bool`, `char`, and
@@ -40,7 +63,7 @@ evolve. `funty` tracks it as best I am able to do, and tries to in general
 remain about four releases behind current. This will not always be true, as I
 may decide to use major advances in the language.
 
-## `radium`
+### `radium`
 
 Originally sketched out by [Nika Layzell][nika], `radium` provides trait
 unification over `Atomic` and `Cell<>` types. The `Radium` trait can be taken as
@@ -56,7 +79,7 @@ it forwards to an `Atomic` or to a `Cell`. You can use this to have a single
 unchanging name that changes behavior according to the target without needing to
 personally remember where your code can and can’t run.
 
-## `bitvec`
+### `bitvec`
 
 This is my most prominent work. It implements bit-precision addressing, allowing
 the creation of arbitrary bitfields, compact `usize => bool` collections, and
