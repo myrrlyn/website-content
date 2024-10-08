@@ -51,7 +51,7 @@ pointers) so that code can be generic over them.
 
 With the initial stabilization of Generic Associated Types in Rust 1.65, I was
 able to pull the trait-level pointer permission system I sketched in `bitvec`
-out into `funty` and create a `Pointer<T: ?Sized, P: Permisison>` type that
+out into `funty` and create a `Pointer<T: ?Sized, P: Permission>` type that
 generically unifies `*const T` and `*mut T` and correctly adheres to Rust’s and
 Miri’s rules about permission tracking, _and_ `Pointer` even switches between
 storing a `*const T` and `*mut T` internally as appropriate, so that code

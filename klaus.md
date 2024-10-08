@@ -2,6 +2,7 @@
 title: Dance with Midshipman 2/C Klaus Payne
 tab_title: Dance with Klaus Payne!
 summary: A flyer advertising Klaus Payne’s social eligibility.
+published: false
 meta:
   - robots: noindex
 ---
