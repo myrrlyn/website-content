@@ -8,7 +8,7 @@ toc: false
 This page contains sample text of various styled elements that appear on the
 site, in order to provide quick visual testing of the overall theme.
 
-## Subtitle
+## Chapter
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet magna
 eget quam facilisis ultricies in non quam. Suspendisse in aliquam odio. Etiam
@@ -85,21 +85,15 @@ Here is a `very long run of inline code` {:.other} just to see it in the AST.
 
 {:tag="aside" .block-harm .iso7010 .p010}
 
-<!-- -->
-
 > This is a warning sidebar, warning of big stamps on short messages.
 
 {:tag="aside" .block-warn .iso7010 .w027}
-
-<!-- -->
 
 > This is a safety sidebar.
 >
 > It will contain reassuring or helpful information, in theory.
 
 {:tag="aside" .block-safe .iso7010 .e003}
-
-<!-- -->
 
 > This is an informational sidebar.
 >
