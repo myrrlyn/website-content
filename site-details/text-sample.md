@@ -1,12 +1,24 @@
 ---
 title: ~/sample.rtf
 subtitle: Typeface Examples
+page_title: Markdown Test Page
+date: 2016-10-01
+about: This page demonstrates rendering Markdown and using metadata.
 summary: A quick palette of how text is rendered here.
 toc: false
+css:
+  - kind: inline
+    value: |
+      span.title { font-style: italic; }
+js:
+  - kind: inline
+    value: |
+      console.log("custom JavaScript");
 ---
 
-This page contains sample text of various styled elements that appear on the
-site, in order to provide quick visual testing of the overall theme.
+This page exercises the elements used in Markdown documents throughout the site
+in order to provide a quick visual reference for the theme. A full listing of
+all HTML elements can be found at the [sibling page](./html-sample.html).
 
 ## Chapter
 

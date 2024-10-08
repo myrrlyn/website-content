@@ -72,7 +72,8 @@ Physical Information
 
 - Height: 6’1” (185cm)
 - Weight: 183±3 lb (83±1.3 kg)
-- BMI: (24.1 \\frac{lb}{ft^{2}}) ((11.7 \\frac{g}{cm^{2}}))
+- BMI: $24.1 \frac{lb}{ft^{2}}$
+  ($11.7 \frac{g}{cm^{2}}$)
 - Hair color: Natural blond
 - Eye color: Cornflower, nay, _rabbit hole_ blue ¹
 - Adequacy: **TBD**
@@ -83,8 +84,8 @@ Physical Information
 > 1. a piercing shade of blue characterized by its similarity to a rabbit hole –
 >    once you fall in, there’s no going back
 > 1. ref. Samuel Haber
->
-> {:tag="small"}
+
+{:tag="small"}
 
 ## Education
 
@@ -183,9 +184,9 @@ Currently selling myself. Customers include:
 
 A degree of experience which is adequate, but not trashy
 
-[casual]: /static/images/klaus/casual.jpg "Klaus stretching in OCU print"
-[clock]: /static/images/klaus/clock.jpg "A clock of the USNA crest"
-[formal]: /static/images/klaus/formal.jpg "Klaus in a formal portrait"
-[lamp]: /static/images/klaus/lamp.png "A lamp with hammerhead sharks cut out"
-[logos]: /static/images/klaus/logos.jpg "Jaegermeister and Supernatural logos"
-[sig]: /static/images/klaus/signature.png "Klaus' signature"
+[casual]: /klaus/casual.jpg "Klaus stretching in OCU print"
+[clock]: /klaus/clock.jpg "A clock of the USNA crest"
+[formal]: /klaus/formal.jpg "Klaus in a formal portrait"
+[lamp]: /klaus/lamp.png "A lamp with hammerhead sharks cut out"
+[logos]: /klaus/logos.jpg "Jaegermeister and Supernatural logos"
+[sig]: /klaus/signature.png "Klaus' signature"

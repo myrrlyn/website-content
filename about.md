@@ -36,7 +36,7 @@ benefits a primary goal of my career and personal life.
 
 ## Personal Life
 
-After university, I lived in Logan, Utah; Albuquerque, New Mexico, and
+After university, I lived in Logan, Utah; Albuquerque, New Mexico; and
 Arlington, Virginia for my work. My friends from camp and college are mostly
 back in the Great Lakes, and my friends from work are primarily in San Francisco
 and New England, so the physical distance encourages my strong online social

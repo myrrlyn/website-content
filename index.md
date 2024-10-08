@@ -1,5 +1,6 @@
 ---
 title: Alexander Payne
+page_title: ~myrrlyn
 summary: My homepage.
 toc: false
 ---
@@ -14,14 +15,15 @@ dive, woodwork, tell my cat how good he is, drive across the continent, and
 listen to way, way too much girlpop.
 
 I work at the Sub-Zero Group as a senior embedded software engineer, where I
-develop the control and interface software for various kitchen appliances. I’m
-very excited to be returning to my embedded and human-tool roots! I am not
-currently looking for other opportunities.
+develop oven control and interface software. I’m very excited to be returning to
+my embedded and human-tool roots! I am not currently looking for other
+opportunities.
 
-I’ve previously worked as a software engineer at Fastly on the H2O web server,
-at Amazon Web Services bringing Rust to embedded devices, and at Space Dynamics
-Laboratory building and operating research small-satellites. My [long-form
-résumé][resume] (PDF) is available if you’re interested in reading it.
+I’ve previously worked as a software engineer at [Fastly] on the [H2O web
+server][h2o], at [Amazon Web Services][AWS] bringing Rust to embedded devices,
+and at [Space Dynamics Laboratory] building and operating research small
+satellites. My [long-form résumé][resume] (PDF) is available if you’re
+interested in reading it.
 
 I also volunteer with a local Scout troop, where I teach aquatics and wilderness
 first aid.
@@ -31,17 +33,16 @@ first aid.
 You may reach me through any of the methods listed here. My phone number, like
 that of most Americans, is relentlessly spammed so I don’t broadcast it anymore.
 
-- [Email][email] (I receive mail sent to any `@myrrlyn.net` address; feel free
+- [Email] (I receive mail sent to any `@myrrlyn.net` address; feel free
   to play around with that if you want)
-- [Twitter][twitter] / [Mastodon][mastodon]{:rel="me"} / [BlueSky][bluesky]
-- [GitHub][gh]
-- [Reddit][reddit]
-- [Cohost][cohost]
-- [Discord][discord] (`myrrlyn`, formerly `myrrlyn#0611`)
-- [Instagram][ig]
-- [Snapchat][snap]
-- [LinkedIn][linkedin] (I almost never maintain this)
-- [Keybase][kb]
+- [Twitter] / [Mastodon]{:rel="me"} / [BlueSky]
+- [GitHub]
+- [Reddit]
+- [Discord] (`myrrlyn`, formerly `myrrlyn#0611`)
+- [Instagram]
+- [Snapchat]
+- [LinkedIn] (I almost never maintain this)
+- [Keybase]
 
 I use the screen name “myrrlyn” pretty much everywhere, so if you find that name
 somewhere I haven’t listed here, it’s still probably me!
@@ -49,8 +50,8 @@ somewhere I haven’t listed here, it’s still probably me!
 <!-- - [Public Key][pubkey] -->
 
 If you _do_ have my phone number, you _should_, but by no means _must_, use
-[Signal][signal] to text me. Again, it’s more a habit thing than anything else;
-normal texts are also fine.
+[Signal] to text me. Again, it’s more a habit thing than anything else; normal
+texts are also fine.
 
 ## Social Policy
 
@@ -76,18 +77,21 @@ here are some explicit promises:
 movements on Twitter. This offer absolutely stands when I am traveling as well
 as when I am home.
 
-[bluesky]: https://bsky.app/profile/myrrlyn.net "My BlueSky profile"
-[cohost]: https://cohost.org/myrrlyn "My Cohost profile"
+[AWS]: https://aws.amazon.com/
+[BlueSky]: https://bsky.app/profile/myrrlyn.net "My BlueSky profile"
+[Discord]: https://discordapp.com/users/200717485706575873 "My Discord profile"
+[Email]: mailto:self@myrrlyn.net "My email address"
+[Fastly]: https://fastly.com/
+[GitHub]: https://github.com/myrrlyn "My GitHub profile"
+[Instagram]: https://instagr.am/myrrlyn "My Instagram gallery"
+[Keybase]: https://keybase.io/myrrlyn "My Keybase profile"
+[LinkedIn]: https://linkedin.com/in/myrrlyn "My LinkedIn profile"
+[Mastodon]: https://tacobelllabs.net/@myrrlyn "My primary Mastodon account"
+[Reddit]: https://reddit.com/u/myrrlyn "My reddit account"
+[Signal]: https://signal.org/download/ "Download Signal"
+[Snapchat]: https://snapchat.com/add/myrrlyn "My Snapchat account"
+[Space Dynamics Laboratory]: https://sdl.usu.edu/
+[Twitter]: https://twitter.com/myrrlyn "My Twitter account"
 [crates]: /crates "A summary of my Rust F/LOSS work"
-[discord]: https://discordapp.com/users/200717485706575873 "My Discord profile"
-[email]: mailto:self@myrrlyn.net "My email address"
-[gh]: https://github.com/myrrlyn "My GitHub profile"
-[ig]: https://instagr.am/myrrlyn "My Instagram gallery"
-[kb]: https://keybase.io/myrrlyn "My Keybase profile"
-[linkedin]: https://linkedin.com/in/myrrlyn "My LinkedIn profile"
-[mastodon]: https://tacobelllabs.net/@myrrlyn "My primary Mastodon account"
-[reddit]: https://reddit.com/u/myrrlyn "My reddit account"
+[h2o]: https://github.com/h2o/h2o
 [resume]: /resume
-[signal]: https://signal.org/download/ "Download Signal"
-[snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"
-[twitter]: https://twitter.com/myrrlyn "My Twitter account"

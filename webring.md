@@ -22,6 +22,7 @@ summary: Here are some of my friends.
 - [Harrison Goscenski](https://hgoscenski.com)
 - [Manish Goregaokar](https://manishearth.github.io)
 - [Michael Gattozzi](https://ductile.systems)
+- [Reid McKenzie](https://arrdem.com)
 - [Victoria Mitchell](https://quietmisdreavus.net)
 
 [0]: https://en.wikipedia.org/wiki/Webring
