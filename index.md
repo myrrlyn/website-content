@@ -6,6 +6,7 @@ toc: false
 ---
 
 Pronouns: he/they
+{:.text-right .float-right}
 
 ## Introduction
 
@@ -15,9 +16,10 @@ dive, woodwork, tell my cat how good he is, drive across the continent, and
 listen to way, way too much girlpop.
 
 I work at the Sub-Zero Group as a senior embedded software engineer, where I
-develop oven control and interface software. I’m very excited to be returning to
-my embedded and human-tool roots! I am not currently looking for other
-opportunities.
+develop the control and interface software for various kitchen appliances. I’m
+very excited to be returning to my embedded and human-tool roots! I am not
+currently looking for other full-time opportunities, though I operate an LLC if
+you are interested in quarter-time consulting.
 
 I’ve previously worked as a software engineer at [Fastly] on the [H2O web
 server][h2o], at [Amazon Web Services][AWS] bringing Rust to embedded devices,
@@ -35,14 +37,15 @@ that of most Americans, is relentlessly spammed so I don’t broadcast it anymor
 
 - [Email] (I receive mail sent to any `@myrrlyn.net` address; feel free
   to play around with that if you want)
-- [Twitter] / [Mastodon]{:rel="me"} / [BlueSky]
-- [GitHub]
-- [Reddit]
-- [Discord] (`myrrlyn`, formerly `myrrlyn#0611`)
-- [Instagram]
-- [Snapchat]
-- [LinkedIn] (I almost never maintain this)
-- [Keybase]
+- [BlueSky][bluesky] / [Mastodon][mastodon]{:rel="me"}
+- [Signal][signal-me]
+- [GitHub][gh]
+- [Reddit][reddit]
+- [Discord][discord] (`myrrlyn`, formerly `myrrlyn#0611`)
+- [Instagram][ig]
+- [Snapchat][snap]
+- [LinkedIn][linkedin] (I almost never maintain this)
+- [Keybase][kb]
 
 I use the screen name “myrrlyn” pretty much everywhere, so if you find that name
 somewhere I haven’t listed here, it’s still probably me!
@@ -82,16 +85,13 @@ as when I am home.
 [Discord]: https://discordapp.com/users/200717485706575873 "My Discord profile"
 [Email]: mailto:self@myrrlyn.net "My email address"
 [Fastly]: https://fastly.com/
-[GitHub]: https://github.com/myrrlyn "My GitHub profile"
-[Instagram]: https://instagr.am/myrrlyn "My Instagram gallery"
-[Keybase]: https://keybase.io/myrrlyn "My Keybase profile"
 [LinkedIn]: https://linkedin.com/in/myrrlyn "My LinkedIn profile"
 [Mastodon]: https://tacobelllabs.net/@myrrlyn "My primary Mastodon account"
 [Reddit]: https://reddit.com/u/myrrlyn "My reddit account"
 [Signal]: https://signal.org/download/ "Download Signal"
-[Snapchat]: https://snapchat.com/add/myrrlyn "My Snapchat account"
 [Space Dynamics Laboratory]: https://sdl.usu.edu/
-[Twitter]: https://twitter.com/myrrlyn "My Twitter account"
 [crates]: /crates "A summary of my Rust F/LOSS work"
 [h2o]: https://github.com/h2o/h2o
 [resume]: /resume
+[signal-me]: https://signal.me/#eu/YyLO94i0--Y7e4voFr8YQg2GSMEGylcG5vQBx9S2CzHwRriMRNtGqLabFRIENgaS
+[snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"

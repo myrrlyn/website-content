@@ -40,8 +40,8 @@ After university, I lived in Logan, Utah; Albuquerque, New Mexico; and
 Arlington, Virginia for my work. My friends from camp and college are mostly
 back in the Great Lakes, and my friends from work are primarily in San Francisco
 and New England, so the physical distance encourages my strong online social
-presence. I’m now living in Madison, Wisconsin with my fiancée and within
-driving range of some friends and family, which I appreciate a lot.
+presence. I’m now living in Madison, Wisconsin with my wife and within driving
+range of some friends and family, which I appreciate a lot.
 
 I have volunteered as a leader and instructor with Scout troops in every area I
 have lived. Scouting has been a fundamental aspect of my life since I was six
