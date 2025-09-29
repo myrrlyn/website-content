@@ -81,7 +81,6 @@ movements on Twitter. This offer absolutely stands when I am traveling as well
 as when I am home.
 
 [AWS]: https://aws.amazon.com/
-[BlueSky]: https://bsky.app/profile/myrrlyn.net "My BlueSky profile"
 [Discord]: https://discordapp.com/users/200717485706575873 "My Discord profile"
 [Email]: mailto:self@myrrlyn.net "My email address"
 [Fastly]: https://fastly.com/
@@ -90,8 +89,12 @@ as when I am home.
 [Reddit]: https://reddit.com/u/myrrlyn "My reddit account"
 [Signal]: https://signal.org/download/ "Download Signal"
 [Space Dynamics Laboratory]: https://sdl.usu.edu/
+[bluesky]: https://bsky.app/profile/myrrlyn.net "My BlueSky profile"
 [crates]: /crates "A summary of my Rust F/LOSS work"
+[gh]: https://github.com/myrrlyn
 [h2o]: https://github.com/h2o/h2o
+[ig]: https://instagr.am/myrrlyn
+[kb]: https://keybase.io/myrrlyn
 [resume]: /resume
 [signal-me]: https://signal.me/#eu/YyLO94i0--Y7e4voFr8YQg2GSMEGylcG5vQBx9S2CzHwRriMRNtGqLabFRIENgaS
 [snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"

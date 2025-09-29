@@ -23,12 +23,13 @@ large autonomous vehicle, involved my skills in both disciplines.
 In addition to my academic and technical pursuits, I also greatly enjoy music
 and aquatics. I began learning piano when I was six, and added the trumpet and
 French horn in middle and high school, respectively. I’ve played in my school
-bands for ten years and hope to resume playing in a community orchestra after
-the pandemic. I have been a strong swimmer all my life, and became a Red Cross
-lifeguard at 14. My passion for aquatic safety has led me to become a BSA
-lifeguard and PADI Rescue Diver, and I have employed these skills as the
-aquatics director at my local Boy Scout camp. During my time at Rota-Kiwan, I
-received excellent reviews and maintained a strong safety record.
+bands for ten years and recently began playing in a community band in my town. I
+have been a strong swimmer all my life, and became a Red Cross lifeguard at 14.
+My passion for aquatic safety has led me to become a BSA lifeguard and PADI
+Rescue Diver, and I have employed these skills as the aquatics director at my
+local Scouting America camp. Since then, I’ve become a Wilderness First Aid
+instructor to help fulfill Scouting America requirements for high-adventure
+treks.
 
 I am deeply passionate about achieving safety in risky environments through
 familiarity, competence, and assistance. I aim to make delivery of such safety
