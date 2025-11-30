@@ -5,9 +5,6 @@ summary: My homepage.
 toc: false
 ---
 
-Pronouns: he/they
-{:.text-right .float-right}
-
 ## Introduction
 
 I’m a programmer and Scout leader currently living in Madison, Wisconsin. When
@@ -18,14 +15,14 @@ listen to way, way too much girlpop.
 I work at the Sub-Zero Group as a senior embedded software engineer, where I
 develop the control and interface software for various kitchen appliances. I’m
 very excited to be returning to my embedded and human-tool roots! I am not
-currently looking for other full-time opportunities, though I operate an LLC if
-you are interested in quarter-time consulting.
+currently looking to be scouted for other work, though I operate an LLC if you
+are interested in quarter-time consulting.
 
 I’ve previously worked as a software engineer at [Fastly] on the [H2O web
-server][h2o], at [Amazon Web Services][AWS] bringing Rust to embedded devices,
-and at [Space Dynamics Laboratory] building and operating research small
-satellites. My [long-form résumé][resume] (PDF) is available if you’re
-interested in reading it.
+server][h2o], at [Amazon Web Services][aws] bringing Rust to embedded devices,
+and at [Space Dynamics Laboratory][sdl] building and operating research small
+satellites. My [long-form résumé][resume] ([PDF][resume-pdf]) is available if
+you’re interested in reading it.
 
 I also volunteer with a local Scout troop, where I teach aquatics and wilderness
 first aid.
@@ -80,7 +77,6 @@ here are some explicit promises:
 movements on Twitter. This offer absolutely stands when I am traveling as well
 as when I am home.
 
-[AWS]: https://aws.amazon.com/
 [Discord]: https://discordapp.com/users/200717485706575873 "My Discord profile"
 [Email]: mailto:self@myrrlyn.net "My email address"
 [Fastly]: https://fastly.com/
@@ -88,13 +84,15 @@ as when I am home.
 [Mastodon]: https://tacobelllabs.net/@myrrlyn "My primary Mastodon account"
 [Reddit]: https://reddit.com/u/myrrlyn "My reddit account"
 [Signal]: https://signal.org/download/ "Download Signal"
-[Space Dynamics Laboratory]: https://sdl.usu.edu/
+[aws]: https://aws.amazon.com/
 [bluesky]: https://bsky.app/profile/myrrlyn.net "My BlueSky profile"
 [crates]: /crates "A summary of my Rust F/LOSS work"
 [gh]: https://github.com/myrrlyn
 [h2o]: https://github.com/h2o/h2o
 [ig]: https://instagr.am/myrrlyn
 [kb]: https://keybase.io/myrrlyn
-[resume]: /resume
+[resume]: /about/résumé
+[resume-pdf]: /papers/resume.pdf
+[sdl]: https://sdl.usu.edu/
 [signal-me]: https://signal.me/#eu/YyLO94i0--Y7e4voFr8YQg2GSMEGylcG5vQBx9S2CzHwRriMRNtGqLabFRIENgaS
 [snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"
