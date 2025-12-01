@@ -2,7 +2,6 @@
 title: Alexander Payne
 subtitle: Software Engineer
 tab_title: My Résumé
-summary: test test 1 2 3
 extra_css: |
   h1.title, h2.subtitle {
     font-family: "Ferro Rosso";
