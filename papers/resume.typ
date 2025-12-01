@@ -1,4 +1,10 @@
-#set document(author: "Alexander Payne", title: "My Résumé")
+#let autolink(url) = { link(url, raw(url)) }
+#let detail_heading(head, time, detail, level: 2) = {
+  box(heading(level: level, head))
+  [ *(#time)* #h(1fr) *#detail*]
+}
+
+#set document(author: "Alexander Payne", title: "Résumé – Alexander Payne")
 #set page(
   // paper: "a4",
   // margin: (x: 2cm, y: 2.5cm),
@@ -8,9 +14,9 @@
   number-align: top + right,
   footer: grid(
     columns: (1fr, 1fr, 1fr),
-    align(left, link("https://myrrlyn.net/", [`https://myrrlyn.net`])),
+    align(left, autolink("https://myrrlyn.net/")),
     align(center, [Madison, WI]),
-    align(right, link("mailto:self@myrrlyn.net", [`self@myrrlyn.net`])),
+    align(right, autolink("mailto:self@myrrlyn.net")),
   ),
 )
 #set text(
@@ -59,6 +65,11 @@
 #show "Sub-Zero Group": link("https://subzero-wolf.com/", "Sub-Zero Group")
 #show "Amazon Web Services": link("https://aws.amazon.com/", "Amazon Web Services")
 #show "Space Dynamics Laboratory": link("https://sdl.usu.edu/", "Space Dynamics Laboratory")
+#show "VPM": link("https://www.afrl.af.mil/Portals/90/Documents/RV/Very%20Low%20Frequency%20Propagation%20Mapper%20(VPM)%20Satellite_AFMC-2019-0769.pdf?ver=2020-08-26-133350-127", "VPM")
+#show "RADIANT": link("https://www.sdl.usu.edu/media-events/media-library/pdf/radiant/", "RADIANT")
+#show "EAGLE": link("https://afresearchlab.com/technology/space-vehicles/eagle/", "EAGLE")
+#show "DHFR": link("https://www.nanosats.eu/sat/dhfr", "DHFR")
+#show "BioSentinel": link("https://www.nasa.gov/ames/biosentinel", "BioSentinel")
 
 #let bitvec = link("https://crates.io/crates/bitvec", [`bitvec`])
 #let crate = name => link("https://lib.rs/crates/" + name, raw(name))
@@ -126,13 +137,14 @@ design in Verilog and embedded programming in C. I built and programmed a small
 autonomous vehicle for my thesis project.
 
 #pagebreak()
+
 #outline(indent: auto)
 #pagebreak()
 #set heading(outlined: true, numbering: "1.1.")
 
 = Professional Experience
 
-== Sub-Zero Group (2023--present) --- Senior Software Engineer
+#detail_heading([Sub-Zero Group], [2023--present], [Senior Software Engineer])
 
 I am the lead engineer on the human control surface for #wolfoven. The Wolf
 oven software suite, including my user-interface program, is a small network of
@@ -142,7 +154,7 @@ I also design the safety-critical software that implements compliance with UL
 858 and 60730 Class-B standards, and drive our team’s CMake build system and CI
 automation processes.
 
-== #fastly (2021--2023) --- Senior Software Engineer
+#detail_heading(fastly, [2021--2023], [Senior Software Engineer])
 
 I was the Rust subject-matter expert on a team maintaining the H2O web server
 powering Fastly's traffic ingress system. We worked on traffic management and
@@ -152,7 +164,11 @@ the holiday season without a performance impact to our customers.
 
 I was let go during the market contraction of the 2022-23 winter.
 
-== Amazon Web Services (2020--2021) --- Software Development Engr
+#detail_heading(
+  [Amazon Web Services],
+  [2020--2021],
+  [Software Development Engineer],
+)
 
 I was recruited to be the Rust subject-matter expert and software subteam lead
 for an experimental layer-2 networking appliance. I designed the software system
@@ -163,7 +179,11 @@ I am required to not disclose anything more about this project. It was cancelled
 after a year, and several of us left AWS when we weren't able to find suitable
 internal positions.
 
-== Space Dynamics Laboratory (2016--2020) --- Satellite Software Engr
+#detail_heading(
+  [Space Dynamics Laboratory],
+  [2016--2020],
+  [Satellite Software Engineer],
+)
 
 I wrote firmware and control software for space vehicles, wrote ground-station
 control software and performed on-orbit vehicle operations, and designed novel
@@ -175,19 +195,17 @@ I resigned from SDL after my grandmother's death and mother's illness early in
 the COVID-19 pandemic so that I could spend time supporting my mother in her
 recovery.
 
-=== GRYPHON (2020) -- AFRL
+#detail_heading([GRYPHON], [2020], [AFRL], level: 3)
 
 I worked on the design and initial standup of an experimental laboratory and
 simulation environment. This was a classified project, and I cannot provide
 details about my tasking.
 
-=== #link("https://www.afrl.af.mil/Portals/90/Documents/RV/Very%20Low%20Frequency%20Propagation%20Mapper%20(VPM)%20Satellite_AFMC-2019-0769.pdf?ver=2020-08-26-133350-127", [VPM]) (2019) --- AFRL
+#detail_heading([VPM], [2019], [AFRL], level: 3)
 
-I wrote vehicle control software in C++11, using SDL's
-#link("https://www.sdl.usu.edu/media-events/media-library/pdf/radiant/", [RADIANT])
-framework.
+I wrote vehicle control software in C++11, using SDL's RADIANT framework.
 
-=== #link("https://afresearchlab.com/technology/space-vehicles/eagle/", [EAGLE]) (2018) --- AFRL
+#detail_heading([EAGLE], [2018], [AFRL], level: 3)
 
 I wrote ground-station control software in Python 2 and supplied continuous
 updates for over a year until the project was relocated away from Kirtland AFB.
@@ -196,7 +214,7 @@ during vehicle operations. As such, deployment required carrying patches back
 and forth between my office and the SCIF, and manually updating the software
 both in production and on my development machine.
 
-=== #link("https://www.nanosats.eu/sat/dhfr", [DHFR]) (2017) --- DARPA
+#detail_heading([DHFR], [2017], [DARPA], level: 3)
 
 I wrote ground-station control software in Ruby, using the COSMOS (now OpenC3)
 framework and assisted with post-assembly vehicle testing. I then performed
@@ -209,7 +227,7 @@ it was not visible. The resulting 23-hour "day" meant that my shift began one
 hour earlier every day, rotating backwards around the clock. I was the sole
 continuous staffer for the four months between launch and end of mission.
 
-=== #link("https://www.nasa.gov/ames/biosentinel", [BioSentinel]) (2017) --- NASA
+#detail_heading([BioSentinel], [2017], [NASA], level: 3)
 
 I wrote a kernel module in C99 for VxWorks 6 on a SPARC v8 chip. This module
 multiplexed a number of discrete hardware sensors aboard an FPGA over a single
@@ -222,10 +240,10 @@ with as few interior function calls as possible.
 
 #pagebreak()
 
-= Public Works (2018--present)
+= Public Works
 
-I am an active contributor to the Rust language's open-source collection. I also
-write some Elixir and TypeScript web applications.
+I have been an active contributor to the Rust language's open-source collection
+since 2018. I also write some Elixir and TypeScript web applications.
 
 == #crate("bitvec")
 
@@ -304,7 +322,11 @@ standard library.
 
 = Formal Education
 
-== B.Sc., Computer Engineering, Trine University (2016)
+#detail_heading(
+  [B.Sc., Computer Engineering],
+  [2016],
+  [Trine University],
+)
 
 My thesis project was the construction, programming, and operation of an
 autonomous freight vehicle. My responsibilities on the team were:
