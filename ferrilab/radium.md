@@ -21,7 +21,7 @@ when the `#[cfg(target_has_atomic = "width")]` gate was not available to
 libraries, and we needed a way to switch between atomics and `Cell`s based on
 what the target environment supported.
 
-It’s now part of the [Ferrilab](./ferrilab) project, as `bitvec` is a primary
+It’s now part of the [Ferrilab](/ferrilab) project, as `bitvec` is a primary
 consumer.
 
 The 1.0 series requires Rust 1.60, as this stabilized the `target_has_atomic`
