@@ -20,7 +20,7 @@ for any integral value.
 
 Furthermore, `bitvec` is unique among Rust bit-packing libraries in that it is
 able to use `&BitSlice` references to exactly match the standard idioms and APIs
-that demand *references* to a memory region, rather than *handles* to it. This
+that demand _references_ to a memory region, rather than _handles_ to it. This
 functionality allows `bitvec` to be drop-in compatible with existing code, with
 only one exception.
 
@@ -58,8 +58,8 @@ language features elsewhere:
 during ordinary operation, so that those particular I/O failures do not cause
 user-facing panics.
 
-This was motivated by the discovery that Unix pipelines deliver `SIGPIPE` to
-the program holding one half of a pipe when the program holding the other half
+This was motivated by the discovery that Unix pipelines deliver `SIGPIPE` to the
+program holding one half of a pipe when the program holding the other half
 closes it. The default C runtime terminates upon delivery, while the default
 Rust runtime ignores it, so Rust programs that attempt to operate on a
 now-closed pipe receive `-EPIPE` as the error code, and panic.

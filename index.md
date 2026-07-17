@@ -12,20 +12,20 @@ I’m not at work or in the wilderness, I like to [write Rust][crates], SCUBA
 dive, woodwork, tell my cat how good he is, drive across the continent, and
 listen to way, way too much girlpop.
 
-I work at the Sub-Zero Group as a senior embedded software engineer, where I
-develop the control and interface software for various kitchen appliances. I’m
-very excited to be returning to my embedded and human-tool roots! I am not
-currently looking to be scouted for other work, though I operate an LLC if you
-are interested in quarter-time consulting.
+I work at Google as a software engineer, working on the low-level software
+operating their NICs. I am not currently looking to be scouted for other work,
+though I operate an LLC if you are interested in quarter-time consulting.
 
-I’ve previously worked as a software engineer at [Fastly] on the [H2O web
-server][h2o], at [Amazon Web Services][aws] bringing Rust to embedded devices,
-and at [Space Dynamics Laboratory][sdl] building and operating research small
-satellites. My [long-form résumé][resume] ([PDF][resume-pdf]) is available if
-you’re interested in reading it.
+I’ve previously worked as a software engineer at the [Sub-Zero Group][szg] on
+the next generation of the Wolf oven, at [Fastly] on the [H2O web server][h2o],
+at [Amazon Web Services][aws] bringing Rust to embedded devices, and at [Space
+Dynamics Laboratory][sdl] building and operating research small satellites. My
+[long-form résumé][resume] ([PDF][resume-pdf]) is available if you’re interested
+in reading it.
 
 I also volunteer with a local Scout troop, where I teach aquatics and wilderness
-first aid.
+first aid, and with a local medic collective, providing first aid and crowd
+safety for civil gatherings.
 
 ## Contact Info
 
@@ -96,3 +96,4 @@ as when I am home.
 [sdl]: https://sdl.usu.edu/
 [signal-me]: https://signal.me/#eu/YyLO94i0--Y7e4voFr8YQg2GSMEGylcG5vQBx9S2CzHwRriMRNtGqLabFRIENgaS
 [snap]: https://snapchat.com/add/myrrlyn "My Snapchat account"
+[szg]: https://subzero-wolf.com/

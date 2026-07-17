@@ -42,10 +42,15 @@ maintain an open-source Rust project which significantly reshapes the standard
 programming model. The [`bitvec`] crate is widely used throughout the public
 Rust ecosystem.
 
+### Google {:.no-count .no-toc}
+
+I am a software engineer working on the software bridging NICs to the rest of
+the sled.
+
 ### Sub-Zero Group {:.no-count .no-toc}
 
-I am a senior software engineer working on safety-critical and user-interface
-microcontroller software for Wolf ovens. I also drive education and
+I was a senior software engineer working on safety-critical and user-interface
+microcontroller software for Wolf ovens. I also drove education and
 modernization within our team.
 
 ### Fastly {:.no-count .no-toc}
@@ -78,9 +83,15 @@ autonomous vehicle for my thesis project.
 
 ## Professional Experience
 
+### Google
+
+> - Time: 2026–present
+> - Role: Software Engineer
+> - [Website][gmsn]
+
 ### Sub-Zero Group
 
-> - Time: 2023—present
+> - Time: 2023–2026
 > - Role: Senior Software Engineer
 > - [Website][szg]
 
@@ -97,7 +108,7 @@ automation processes.
 
 ### Fastly
 
-> - Time: 2021—2023
+> - Time: 2021–2023
 > - Role: Senior Software Engineer
 > - [Website][fastly]
 
@@ -114,7 +125,7 @@ I was let go during the market contraction of the 2022-23 winter.
 
 ### Amazon Web Services
 
-> - Time: 2020—2021
+> - Time: 2020–2021
 > - Role: Software Development Engineer II
 > - [Website][aws]
 
@@ -131,7 +142,7 @@ internal positions.
 
 ### Space Dynamics Laboratory
 
-> - Time: 2016—2020
+> - Time: 2016–2020
 > - Role: Satellite Software Engineer I
 > - [Website][sdl]
 
@@ -307,7 +318,7 @@ standard library.
 
 > - School: Trine University
 > - Major: Computer Engineering
-> - Time: 2011—2016
+> - Time: 2011–2016
 > - [Website][trine-cpe]
 
 {:tag="aside" .block-info}
@@ -357,6 +368,7 @@ I am a Wilderness First Aid and CPR instructor with the [ECSI] school.
 [aws]: https://aws.amazon.com/what-is-aws/
 [darpa-dhfr]: https://www.nanosats.eu/sat/dhfr
 [fastly]: https://www.fastly.com/company
+[gmsn]: https://www.google.com/about/careers/applications/locations/madison/
 [h2o]: https://github.com/h2o/h2o
 [nasa-biosentinel]: https://www.nasa.gov/ames/biosentinel
 [sdl]: https://sdl.usu.edu/company/about

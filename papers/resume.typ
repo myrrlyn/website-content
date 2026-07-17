@@ -65,7 +65,10 @@
 #show "Sub-Zero Group": link("https://subzero-wolf.com/", "Sub-Zero Group")
 #show "Amazon Web Services": link("https://aws.amazon.com/", "Amazon Web Services")
 #show "Space Dynamics Laboratory": link("https://sdl.usu.edu/", "Space Dynamics Laboratory")
-#show "VPM": link("https://www.afrl.af.mil/Portals/90/Documents/RV/Very%20Low%20Frequency%20Propagation%20Mapper%20(VPM)%20Satellite_AFMC-2019-0769.pdf?ver=2020-08-26-133350-127", "VPM")
+#show "VPM": link(
+  "https://www.afrl.af.mil/Portals/90/Documents/RV/Very%20Low%20Frequency%20Propagation%20Mapper%20(VPM)%20Satellite_AFMC-2019-0769.pdf?ver=2020-08-26-133350-127",
+  "VPM",
+)
 #show "RADIANT": link("https://www.sdl.usu.edu/media-events/media-library/pdf/radiant/", "RADIANT")
 #show "EAGLE": link("https://afresearchlab.com/technology/space-vehicles/eagle/", "EAGLE")
 #show "DHFR": link("https://www.nanosats.eu/sat/dhfr", "DHFR")
@@ -75,23 +78,25 @@
 #let crate = name => link("https://lib.rs/crates/" + name, raw(name))
 #let fastly = link("https://fastly.com/", "Fastly")
 #let ferrilab = link("https://ferrilab.github.io/ferrilab", [_Ferrilab_])
-#let wolfoven = link("https://www.subzero-wolf.com/wolf/configurator#sort=%40displayorder%20descending&numberOfResults=21&f:Type=[Convection]&f:Width=[30%22]&f:Line=[M%20Series]&wolfcategory=Built-in%20Ovens", [Wolf ovens])
+#let wolfoven = link(
+  "https://www.subzero-wolf.com/wolf/configurator#sort=%40displayorder%20descending&numberOfResults=21&f:Type=[Convection]&f:Width=[30%22]&f:Line=[M%20Series]&wolfcategory=Built-in%20Ovens",
+  [Wolf ovens],
+)
 
 #align(center)[= Introduction]
 
 I am a software engineer specializing in low-level systems and freestanding
-code. I have nine years' industry experience writing appliance control software
-for research satellites and domestic appliances, high-performance web server
-logic, and foundation libraries in C, C++, and Rust. I have worked closely with
-hardware engineers to create new machines and with fleet operators to deploy
-software worldwide.
+code. I have nine years' industry experience writing control software for
+small satellites and domestic appliances, high-performance web server logic,
+and foundation libraries in C, C++, and Rust. I have worked with hardware
+engineers to create new machines and fleet operators to deploy software
+worldwide.
 
 I excel at designing and implementing safety-critical code and proving
 conformance to external requirements, including both customer needs and formal
 engineering standards. I am a strong technical writer and produce my own
-documentation. I am also an active contributor to open-source software,
-primarily in Rust. I maintain several widely-used utility libraries and lead the
-#ferrilab project.
+documentation. I am also a Rust open-source maintainer. I maintain several
+widely-used utility libraries and lead the #ferrilab project.
 
 #align(center)[= Summary]
 
@@ -99,42 +104,45 @@ These are explained with more detail on the following pages.
 
 == 0. Ferrilab
 
-As the sole proprietor of Ferrilab Design, LLC, I offer software consultancy and
-maintain an open-source Rust project which significantly reshapes the standard
-programming model. The #bitvec crate is widely used throughout the public Rust
-ecosystem.
+Through Ferrilab Design, LLC, I offer software consultancy and maintain an
+open-source Rust project which reshapes the standard programming model,
+particularly the #bitvec crate.
 
-== 1. Sub-Zero Group
+== 1. Google
 
-I am a senior software engineer working on safety-critical and user-interface
+I am a software engineer on the data-center networking team, where I work on the
+software that bridges their NICs to the rest of the sled.
+
+== 2. Sub-Zero Group
+
+I was a senior software engineer working on safety-critical and user-interface
 microcontroller software for Wolf ovens. I also drive education and
 modernization within our team.
 
-== 2. #fastly
+== 3. #fastly
 
 I was a senior software engineer responsible for creating traffic-management
 code in Rust and integrating it into a C codebase. My work was an ingress filter
-running worldwide on Fastly's fleet, and enabled significant reduction in
-malicious traffic without imposing a performance cost to any other users.
+running worldwide on Fastly's fleet, and significantly reduced malicious traffic
+without imposing a performance cost to any other users.
 
-== 3. Amazon Web Services
+== 4. Amazon Web Services
 
 I led the design and implementation of a Rust real-time unikernel running on a
 small ARM processor. I worked with electrical engineers to develop a novel
 networking appliance subject to strict performance, security, and
 tamper-resistance requirements.
 
-== 4. Space Dynamics Laboratory
+== 5. Space Dynamics Laboratory
 
 I wrote kernel modules and flight application software for small satellites, and
 earthside ground-station software to control them. I also served as control
 staff for vehicle operations.
 
-== 5. Formal Education
+== 6. Formal Education
 
-I studied Computer Engineering at Trine University. I learned digital system
-design in Verilog and embedded programming in C. I built and programmed a small
-autonomous vehicle for my thesis project.
+I studied Computer Engineering at Trine University. I learned digital logic in Verilog and embedded programming in C. I built and programmed a small autonomous
+vehicle for my thesis project.
 
 #pagebreak()
 
@@ -144,15 +152,19 @@ autonomous vehicle for my thesis project.
 
 = Professional Experience
 
-#detail_heading([Sub-Zero Group], [2023--present], [Senior Software Engineer])
+#detail_heading([Google], [2026--], [Software Engineer])
 
-I am the lead engineer on the human control surface for #wolfoven. The Wolf
+#detail_heading([Sub-Zero Group], [2023--2026], [Senior Software Engineer])
+
+I was the lead engineer on the human control surface for #wolfoven. The Wolf
 oven software suite, including my user-interface program, is a small network of
 microprocessors running C++ freestanding applications linked by a CAN bus.
 
-I also design the safety-critical software that implements compliance with UL
-858 and 60730 Class-B standards, and drive our team’s CMake build system and CI
+I also designed the safety-critical software that implements compliance with UL
+858 and 60730 Class-B standards, and drove our team’s CMake build system and CI
 automation processes.
+
+I stepped down to help take care of my wife during a protracted illness.
 
 #detail_heading(fastly, [2021--2023], [Senior Software Engineer])
 
